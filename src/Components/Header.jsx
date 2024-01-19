@@ -32,7 +32,7 @@ function Header() {
                 ` ${isActive ? "text-slate-500" : "text-red-900" }`}><div className='flex flex-row items-center gap-1'><MdContactMail />Contact</div></NavLink></li>
         </ul>
       </div>
-      <section className="MOBILE-MENU flex lg:hidden">
+      <section className="MOBILE-MENU flex md:hidden">
           <div
             className="HAMBURGER-ICON space-y-2"
             onClick={() => setIsNavOpen((prev) => !prev)}
