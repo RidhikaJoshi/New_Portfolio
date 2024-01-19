@@ -16,18 +16,20 @@ function Header() {
       <Link to='/'><img className='h-8 w-10' src={icon} /></Link>
       <div>
         <ul className='md:flex  hidden justify-evenly items-center font-semibold font-serif text-xl'>
-          <li className='m-4 flex'><NavLink  to="/" className={({isActive})=>
-                ` ${isActive ? "text-slate-500" : "text-red-900" }`}><IoHome />Home</NavLink></li>
-          <li className='m-2'><NavLink  to="/about" className={({isActive})=>
-                ` ${isActive ? "text-slate-500" : "text-red-900" }`}><FaUser />About</NavLink></li>
-          <li className='m-2'><NavLink  to="/skills" className={({isActive})=>
-                ` ${isActive ? "text-slate-500" : "text-red-900" }`}><RiUserStarFill />Skills</NavLink></li>
-          <li className='m-2'><NavLink  to="/projects" className={({isActive})=>
-                ` ${isActive ? "text-slate-500" : "text-red-900" }`}><AiOutlineFundProjectionScreen />Projects</NavLink></li>
-          <li className='m-2'><NavLink  to="/education" className={({isActive})=>
-                ` ${isActive ? "text-slate-500" : "text-red-900" }`}><BsFillMortarboardFill />Education</NavLink></li>
-          <li className='m-2'><NavLink  to="/contact" className={({isActive})=>
-                ` ${isActive ? "text-slate-500" : "text-red-900" }`}><MdContactMail />Contact</NavLink></li>
+          <li className='m-4 '><NavLink  to="/" className={({isActive})=>
+                ` ${isActive ? "text-slate-500" : "text-red-900" }`}>
+                  <div className='flex flex-row items-center gap-1'>
+                  <IoHome />Home</div></NavLink></li>
+          <li className='m-4'><NavLink  to="/about" className={({isActive})=>
+                ` ${isActive ? "text-slate-500" : "text-red-900" }`}><div className='flex flex-row items-center gap-1'><FaUser />About</div></NavLink></li>
+          <li className='m-4'><NavLink  to="/skills" className={({isActive})=>
+                ` ${isActive ? "text-slate-500" : "text-red-900" }`}><div className='flex flex-row items-center gap-1'><RiUserStarFill />Skills</div></NavLink></li>
+          <li className='m-4'><NavLink  to="/projects" className={({isActive})=>
+                ` ${isActive ? "text-slate-500" : "text-red-900" }`}><div className='flex flex-row items-center gap-1'><AiOutlineFundProjectionScreen />Projects</div></NavLink></li>
+          <li className='m-4'><NavLink  to="/education" className={({isActive})=>
+                ` ${isActive ? "text-slate-500" : "text-red-900" }`}><div className='flex flex-row items-center gap-1'><BsFillMortarboardFill />Education</div></NavLink></li>
+          <li className='m-4'><NavLink  to="/contact" className={({isActive})=>
+                ` ${isActive ? "text-slate-500" : "text-red-900" }`}><div className='flex flex-row items-center gap-1'><MdContactMail />Contact</div></NavLink></li>
         </ul>
       </div>
       <section className="MOBILE-MENU flex lg:hidden">
@@ -59,18 +61,20 @@ function Header() {
               </svg>
             </div>
             <ul className="flex flex-col items-center justify-between font-semibold font-serif text-xl">
-             <li className='m-2'><NavLink  to="/" className={({isActive})=>
-                ` ${isActive ? "text-slate-500" : "text-red-900" }`}>Home</NavLink></li>
-          <li className='m-2'><NavLink  to="/about" className={({isActive})=>
-                ` ${isActive ? "text-slate-500" : "text-red-900" }`}>About</NavLink></li>
-          <li className='m-2'><NavLink  to="/skills" className={({isActive})=>
-                ` ${isActive ? "text-slate-500" : "text-red-900" }`}>Skills</NavLink></li>
-          <li className='m-2'><NavLink  to="/projects" className={({isActive})=>
-                ` ${isActive ? "text-slate-500" : "text-red-900" }`}>Projects</NavLink></li>
-          <li className='m-2'><NavLink  to="/education" className={({isActive})=>
-                ` ${isActive ? "text-slate-500" : "text-red-900" }`}>Education</NavLink></li>
-          <li className='m-2'><NavLink  to="/contact" className={({isActive})=>
-                ` ${isActive ? "text-slate-500" : "text-red-900" }`}>Contact</NavLink></li>
+             <li className='m-4 '><NavLink  to="/" className={({isActive})=>
+                ` ${isActive ? "text-slate-500" : "text-red-900" }`}>
+                  <div className='flex flex-row items-center gap-1'>
+                  <IoHome />Home</div></NavLink></li>
+          <li className='m-4'><NavLink  to="/about" className={({isActive})=>
+                ` ${isActive ? "text-slate-500" : "text-red-900" }`}><div className='flex flex-row items-center gap-1'><FaUser />About</div></NavLink></li>
+          <li className='m-4'><NavLink  to="/skills" className={({isActive})=>
+                ` ${isActive ? "text-slate-500" : "text-red-900" }`}><div className='flex flex-row items-center gap-1'><RiUserStarFill />Skills</div></NavLink></li>
+          <li className='m-4'><NavLink  to="/projects" className={({isActive})=>
+                ` ${isActive ? "text-slate-500" : "text-red-900" }`}><div className='flex flex-row items-center gap-1'><AiOutlineFundProjectionScreen />Projects</div></NavLink></li>
+          <li className='m-4'><NavLink  to="/education" className={({isActive})=>
+                ` ${isActive ? "text-slate-500" : "text-red-900" }`}><div className='flex flex-row items-center gap-1'><BsFillMortarboardFill />Education</div></NavLink></li>
+          <li className='m-4'><NavLink  to="/contact" className={({isActive})=>
+                ` ${isActive ? "text-slate-500" : "text-red-900" }`}><div className='flex flex-row items-center gap-1'><MdContactMail />Contact</div></NavLink></li>
             </ul>
           </div>
         </section><style>{`
