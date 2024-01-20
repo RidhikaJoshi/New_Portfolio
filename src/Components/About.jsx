@@ -11,7 +11,7 @@ function About() {
       <div className='md:w-[90%] w-[95%] min-h-[25rem] flex md:flex-row items-center justify-between flex-col m-2 gap-2'>
           {/* This div is for the text part */}
           <div className='md:w-[55%] flex flex-col justify-between w-[90%] '>
-              <p className='md:text-2xl font-bold text-center text-xl'>LET ME INTRODUCE MYSELF</p>
+              <p className='md:text-2xl font-bold text-center text-xl text-[#00B4D8]'>LET ME INTRODUCE MYSELF</p>
               <br/>
               <p>I am Ridhika Joshi from Rishra, West Bengal, India. Currently, I’m pursuing my B.Tech. in Computer Science and Engineering from Academy of Technology, Adisaptagram.</p>
                <br/>
