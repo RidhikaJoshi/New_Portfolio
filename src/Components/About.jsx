@@ -6,7 +6,7 @@ import { FaPlane } from "react-icons/fa";
 
 function About() {
   return (
-    <div className='min-h-[90vh] w-full text-white flex items-center justify-center font-serif'>
+    <div className='min-h-[90vh] w-full text-white flex items-center justify-center font-serif mt-8 mb-8 '>
 
       <div className='md:w-[90%] w-[95%] min-h-[25rem] flex md:flex-row items-center justify-between flex-col m-2 gap-2'>
           {/* This div is for the text part */}
