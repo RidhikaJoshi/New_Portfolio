@@ -2,7 +2,7 @@ import React from 'react'
 
 function Education() {
   return (
-    <div>Education</div>
+    <div className='min-h-[90vh]'>Education</div>
   )
 }
 

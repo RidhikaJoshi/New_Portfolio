@@ -2,7 +2,7 @@ import React from 'react'
 
 function Skills() {
   return (
-    <div>Skills</div>
+    <div className='min-h-[90vh]'>Skills</div>
   )
 }
 
