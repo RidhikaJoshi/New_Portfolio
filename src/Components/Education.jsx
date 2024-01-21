@@ -1,6 +1,7 @@
 import React from 'react'
 import reading from '../assets/reading.gif'
 import Tilt from 'react-parallax-tilt';
+import { SiGooglescholar } from "react-icons/si";
 
 function Education() {
   return (
@@ -98,11 +99,94 @@ function Education() {
 
           {/* This division contains the education details */}
 
-          <div className='bg-green-800 min-h-[90vh] w-full'>
+          <div className=' min-h-[90vh] w-full'>
               <p className='md:text-3xl font-bold text-center text-xl'>Educational Qualifications</p>
+
+              <div className='p-8  md:w-[90%] w-full m-auto'>
+          <div
+            className="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50"
+          >
+            {/* <!-- left --> */}
+            <div className="flex flex-row-reverse md:contents">
+              <div
+                className="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
+              >
+                <h3 className="font-bold text-xl mb-1 flex flex-row gap-1 items-center"><SiGooglescholar /><div>Bachelor Degree</div></h3>
+                <p className='italic'>Academy of Technology</p>
+                <p className='italic'>July 2021-Present</p>
+                <br/>
+                <p className="leading-tight text-justify">
+                  • Undergraduate achiever in Computer Science and Engineering, holding an GPA of 9.45/10, demonstrating a strong commitment to academic excellence and a deep grasp of the core concepts in the field.
+                </p>
+              </div>
+              <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                <div className="h-full w-6 flex items-center justify-center">
+                  <div className="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                </div>
+                <div
+                  className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+                ></div>
+              </div>
+            </div>
+            {/* <!-- right --> */}
+            <div className="flex md:contents">
+              <div className="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                <div className="h-full w-6 flex items-center justify-center">
+                  <div className="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                </div>
+                <div
+                  className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+                ></div>
+              </div>
+              <div
+                className="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
+              >
+                <h3 className="font-bold text-xl mb-1 flex flex-row gap-1 items-center"><SiGooglescholar /><div>Higher Secondary</div></h3>
+                <p className='italic'>St.Joseph's Convent</p>
+                <p className='italic'>July 2018- March 2020</p>
+                <br/>
+                <ul className="leading-tight text-justify">
+                  <li> •  CISCE(Council for Indian School Certificate Examinations)</li>
+                  <li>•  Percentage-96.25%</li>
+                  <li>•  Participated in old usable clothes donation camp in Serampore, Hooghly.</li>
+                 
+                </ul>
+              </div>
+            </div>
+            {/* <!-- left --> */}
+            <div className="flex flex-row-reverse md:contents">
+              <div
+                className="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
+              >
+                <h3 className="font-bold text-xl mb-1 flex flex-row gap-1 items-center"><SiGooglescholar /><div>Secondary Education</div></h3>
+                <p className='italic'>Stepping Stone School(High)</p>
+                <p className='italic'>July 2016-March 2018</p>
+                <br/>
+                <ul className="leading-tight text-justify">
+                  <li> •  CISCE(Council for Indian School Certificate Examinations).</li>
+                  <li>•  Percentage-93.25%.</li>
+                  <li>•  House Captain for a year</li>
+                  <li>• Winner of intra-school coding competition.</li>
+                  <li>• 1st Runner-up in the Kho-Kho competition.</li>
+                 
+                </ul>
+              </div>
+              <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                <div className="h-full w-6 flex items-center justify-center">
+                  <div className="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                </div>
+                <div
+                  className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+                ></div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+              </div>
  
           </div>
-      </div>
+      
   )
 }
 

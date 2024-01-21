@@ -6,13 +6,22 @@ import anagram from '../assets/anagram.png'
 import { FaHtml5,FaCss3Alt ,FaReact} from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss } from "react-icons/si";
+import project from '../assets/projects.gif'
+import Tilt from 'react-parallax-tilt';
 
 function Project() {
   return (
-    <div className='min-h-[90vh] w-full bg-slate-500  text-white flex flex-col items-center justify-center font-serif'>
+    <div className='min-h-[90vh] w-full bg-black  text-white flex flex-col items-center justify-center font-serif gap-10'>
+      <div className='md:w-[90%] w-[90%] min-h-[25rem] mt-10 flex md:flex-row flex-col-reverse items-center justify-evenly gap-6'>
+        <Tilt className='h-96 md:w-[40%] w-full'><img className='rounded-2xl' src={project}/></Tilt>
+        <div className=' md:w-[40%] w-full flex flex-col gap-4'>
+          <h1 className='md:text-4xl font-bold mt-8 text-2xl text-center' >My Recent Projects</h1>
+          <p className='text-center'>I engage in diverse projects encompassing a wide array of technologies, showcasing my proficiency as a full-stack developer. </p>
+        </div>
 
-      <p className='md:text-4xl font-bold mt-8 text-2xl'>My Recent Projects</p>
-      <p>Here are a few projects I've worked on recently.</p>
+      </div>
+      {/* <p className='md:text-4xl font-bold mt-8 text-2xl'>My Recent Projects</p>
+      <p>Here are a few projects I've worked on recently.</p> */}
       <br/>
       <div className='md:w-[90%] w-[90%] min-h-[25rem] flex flex-wrap md:flex-row items-center justify-between flex-col m-2 gap-4'>
 
