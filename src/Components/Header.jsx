@@ -12,6 +12,7 @@ import { RiUserStarFill } from "react-icons/ri";
 function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
   return (
+
     <div className='w-full h-14 bg-black flex justify-around items-center border-b-[0.5px] border-[#03F6FF]'>
       <Link to='/'><img className='h-10 w-35 rounded-full' src={icon} /></Link>
       <div>
@@ -32,6 +33,7 @@ function Header() {
             ` ${isActive ? "text-[#03F6FF]" : "text-white"}`}><div className='flex flex-row items-center gap-1'><MdContactMail />Contact</div></NavLink></li>
         </ul>
       </div>
+      
       <section className="MOBILE-MENU flex md:hidden">
         <div
           className="HAMBURGER-ICON space-y-2"
@@ -96,6 +98,7 @@ function Header() {
         align-items: center;
       }
     `}</style>
+    
     </div>
   )
 }
