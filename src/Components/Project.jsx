@@ -20,11 +20,11 @@ function Project() {
                 <g id="wall">
                   <path fill="#03F6FF" d="M674 333c0 2-2 4-4 4H553c-2 0-4-2-4-4V203c0-2 2-4 4-4h117c2 0 4 2 4 4v130z">
                   </path>
-                  <path id="Layer_33" fill="#7348a7" d="M639 240c-4-4-10-4-13 0l-77 77v15l5 5h116c2 0 4-2 4-4v-58l-35-35z"></path>
+                  <path id="Layer_33" fill="#3F3D56" d="M639 240c-4-4-10-4-13 0l-77 77v15l5 5h116c2 0 4-2 4-4v-58l-35-35z"></path>
                 </g>
                 <g id="light">
                   <circle id="bulb" cx="550" cy="230" r="9" fill="#c2c0c5"></circle>
-                  <path fill="#52057B" d="M550 201l-27 29h55z"></path>
+                  <path fill="#3F3D56" d="M550 201l-27 29h55z"></path>
                 </g>
                 <g id="Woman__x2F__Chair__x2F__Screen">
                   <g id="backleg_1_">
@@ -35,12 +35,12 @@ function Project() {
                     <g id="legs_1_">
                       <path fill="#34363E" d="M782 461l-65 36v-5l68-38v5z"></path>
                       <path fill="#34363E" d="M726 459l65 36v-4l-65-37z"></path>
-                      <path fill="#52057B" d="M779 441l19 108 5 1-10-112zM729 440l-10 3-9 107h4l18-108z"></path>
+                      <path fill="#3F3D56" d="M779 441l19 108 5 1-10-112zM729 440l-10 3-9 107h4l18-108z"></path>
                     </g>
                     <g id="seat_1_">
                       <path fill="#03F6FF" d="M804 360c15 0 18-2 19 20s-13 42-17 48-6 15-24 15h-70l-2-9s73 0 80-8 16-22 18-36 6-21 2-23-6-7-6-7z">
                       </path>
-                      <path fill="#52057B" d="M796 359h8c7-1 13 2 12 17s-9 34-13 42-9 17-32 17h-64s16-8 35-8 22-11 26-21 11-28 13-37 6-10 15-10z">
+                      <path fill="#3F3D56" d="M796 359h8c7-1 13 2 12 17s-9 34-13 42-9 17-32 17h-64s16-8 35-8 22-11 26-21 11-28 13-37 6-10 15-10z">
                       </path>
                       <path id="womanshdow" fill="#413C69" d="M803 407c0-10-13-23-15-31s4-14 9-17h-4c-8 0-11 2-12 10l-5 17v3c3 8 6 16 6 24s-15 17-15 17l-5 5h9c22 0 27-9 31-17l1-11z">
                       </path>
@@ -110,7 +110,7 @@ function Project() {
 
                 </g>
                 <g id="Desk">
-                  <path fill="#52057B" d="M369 386h178v10H369zM547 386h220v10H547z"></path>
+                  <path fill="#3F3D56" d="M369 386h178v10H369zM547 386h220v10H547z"></path>
                   <path fill="#e4d0fc" d="M548 396h9v154h-9z"></path>
                 </g>
                 <g id="flowerpot">
@@ -120,7 +120,7 @@ function Project() {
 
                 </g>
                 <g id="Man__x2F__chair__x2F__screen">
-                  <path id="chairbackbar" fill="#52057B" d="M368 468h10v76h-10z"></path>
+                  <path id="chairbackbar" fill="#3F3D56" d="M368 468h10v76h-10z"></path>
                   <path id="keyboard" fill="#D2D2D3" d="M507 380c3 0 4 2 1 4l-3 2h-55s4-6 9-6h48z"></path>
                   <g id="man">
                     <g id="man-body">
@@ -180,9 +180,9 @@ function Project() {
                     </g>
                   </g>
                   <g id="Chair">
-                    <path id="foot_1_" fill="#52057B" d="M337 550h73l-10-13h-52z"></path>
+                    <path id="foot_1_" fill="#3F3D56" d="M337 550h73l-10-13h-52z"></path>
                     <g id="seat">
-                      <path fill="#52057B" d="M371 442l53 1c3 0 6 0 6 7 0 5-3 6-6 6h-22s-2 6-4 7h-14l-4 12h-15l-5-12-3-8 14-13z">
+                      <path fill="#3F3D56" d="M371 442l53 1c3 0 6 0 6 7 0 5-3 6-6 6h-22s-2 6-4 7h-14l-4 12h-15l-5-12-3-8 14-13z">
                       </path>
                       <path fill="#03F6FF" d="M326 449c0 4 3 7 11 7h47s-5-1-5-6c0-3 0-8 5-8h-48c-7 0-10 2-10 7z">
                       </path>
@@ -194,24 +194,24 @@ function Project() {
                       </path>
                       <path fill="#dbd9fa" d="M332 376c-6 0-12-1-9 11l5 24c1 5 1 6 8 6h19s7 1 5-8l-5-25c-1-5-1-8-9-8h-14z"></path>
                       <path fill="#36474A" d="M345 395l2 1 9 49c1 6 5 11 7 12s2 6 2 6-8-2-10-3-7-25-7-25l-3-28-2-11 2-1z"></path>
-                      <path fill="#52057B" d="M332 395l9 51c1 8 3 16 13 17h11s-7-3-9-6c-4-4-7-28-7-28l-4-34h-13z">
+                      <path fill="#3F3D56" d="M332 395l9 51c1 8 3 16 13 17h11s-7-3-9-6c-4-4-7-28-7-28l-4-34h-13z">
                       </path>
                     </g>
                   </g>
                   <g id="Man_screen">
                     <g className="redskmove">
-                      <path fill="#a995ce" d="M574 360c0 2-2 4-4 4h-89c-2 0-4-2-4-4v-69c0-2 2-4 4-4h89c2 0 4 2 4 4v69z" className="redscreen"></path>
+                      <path fill="#585268" d="M574 360c0 2-2 4-4 4h-89c-2 0-4-2-4-4v-69c0-2 2-4 4-4h89c2 0 4 2 4 4v69z" className="redscreen"></path>
                     </g>
                     <g className="greenscrmove">
                       <g className="greenscreen">
-                        <path fill="#9562d3" d="M523 337c0 2-2 4-4 4h-68c-2 0-4-2-4-4v-46c0-2 2-4 4-4h68c2 0 4 2 4 4v46z"></path>
+                        <path fill="#03F6FF" d="M523 337c0 2-2 4-4 4h-68c-2 0-4-2-4-4v-46c0-2 2-4 4-4h68c2 0 4 2 4 4v46z"></path>
                         <path fill="#F7FCFB" d="M517 307c0 2-2 4-4 4h-51c-2 0-4-2-4-4v-4c0-2 2-4 4-4h51c2 0 4 2 4 4v4z"></path>
                         <path fill="#3B064D" d="M492 326c0 2-2 4-4 4h-26c-2 0-4-2-4-4v-2c0-2 2-4 4-4h26c2 0 4 2 4 4v2z"></path>
                       </g>
                     </g>
                     <g className="screenbutton">
 
-                      <circle cx="523" cy="314" r="18" fill="#52057B"></circle>
+                      <circle cx="523" cy="314" r="18" fill="#3F3D56"></circle>
                       <path fill="#bb86fc" d="M523 309l-4 8h8z"></path>
                     </g>
                   </g>
