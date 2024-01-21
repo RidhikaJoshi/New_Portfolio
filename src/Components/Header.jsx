@@ -12,24 +12,24 @@ import { RiUserStarFill } from "react-icons/ri";
 function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
   return (
-    <div className='w-full h-14 bg-slate-300 flex justify-around items-center'>
+    <div className='w-full h-14 bg-black flex justify-around items-center border-b-[0.5px] border-[#03F6FF]'>
       <Link to='/'><img className='h-10 w-35 rounded-full' src={icon} /></Link>
       <div>
         <ul className='md:flex  hidden justify-evenly items-center font-semibold font-serif text-xl'>
           <li className='m-4 '><NavLink to="/" className={({ isActive }) =>
-            ` ${isActive ? "text-slate-500" : "text-red-900"}`}>
+            ` ${isActive ? "text-[#03F6FF]" : "text-white"}`}>
             <div className='flex flex-row items-center gap-1'>
               <IoHome />Home</div></NavLink></li>
           <li className='m-4'><NavLink to="/about" className={({ isActive }) =>
-            ` ${isActive ? "text-slate-500" : "text-red-900"}`}><div className='flex flex-row items-center gap-1'><FaUser />About</div></NavLink></li>
+            ` ${isActive ? "text-[#03F6FF]" : "text-white"}`}><div className='flex flex-row items-center gap-1'><FaUser />About</div></NavLink></li>
           <li className='m-4'><NavLink to="/skills" className={({ isActive }) =>
-            ` ${isActive ? "text-slate-500" : "text-red-900"}`}><div className='flex flex-row items-center gap-1'><RiUserStarFill />Skills</div></NavLink></li>
+            ` ${isActive ? "text-[#03F6FF]" : "text-white"}`}><div className='flex flex-row items-center gap-1'><RiUserStarFill />Skills</div></NavLink></li>
           <li className='m-4'><NavLink to="/projects" className={({ isActive }) =>
-            ` ${isActive ? "text-slate-500" : "text-red-900"}`}><div className='flex flex-row items-center gap-1'><AiOutlineFundProjectionScreen />Projects</div></NavLink></li>
+            ` ${isActive ? "text-[#03F6FF]" : "text-white"}`}><div className='flex flex-row items-center gap-1'><AiOutlineFundProjectionScreen />Projects</div></NavLink></li>
           <li className='m-4'><NavLink to="/education" className={({ isActive }) =>
-            ` ${isActive ? "text-slate-500" : "text-red-900"}`}><div className='flex flex-row items-center gap-1'><BsFillMortarboardFill />Education</div></NavLink></li>
+            ` ${isActive ? "text-[#03F6FF]" : "text-white"}`}><div className='flex flex-row items-center gap-1'><BsFillMortarboardFill />Education</div></NavLink></li>
           <li className='m-4'><NavLink to="/contact" className={({ isActive }) =>
-            ` ${isActive ? "text-slate-500" : "text-red-900"}`}><div className='flex flex-row items-center gap-1'><MdContactMail />Contact</div></NavLink></li>
+            ` ${isActive ? "text-[#03F6FF]" : "text-white"}`}><div className='flex flex-row items-center gap-1'><MdContactMail />Contact</div></NavLink></li>
         </ul>
       </div>
       <section className="MOBILE-MENU flex md:hidden">

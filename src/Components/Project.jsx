@@ -15,7 +15,7 @@ function Project() {
       <div className='md:w-[90%] w-[90%] min-h-[25rem] mt-10 flex md:flex-row flex-col-reverse items-center justify-evenly gap-6'>
         <Tilt className='h-96 md:w-[40%] w-full'><img className='rounded-2xl' src={project}/></Tilt>
         <div className=' md:w-[40%] w-full flex flex-col gap-4'>
-          <h1 className='md:text-4xl font-bold mt-8 text-2xl text-center' >My Recent Projects</h1>
+          <h1 className='md:text-4xl font-bold mt-8 text-2xl text-center text-[#03F6FF]' >My Recent Projects</h1>
           <p className='text-center'>I engage in diverse projects encompassing a wide array of technologies, showcasing my proficiency as a full-stack developer. </p>
         </div>
 
