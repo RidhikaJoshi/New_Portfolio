@@ -1,5 +1,5 @@
 import React from 'react'
-import icon from '../assets/my.png'
+import icon from '../assets/logo.png'
 import { Link, NavLink } from 'react-router-dom'
 import { useState } from "react";
 import { IoHome } from "react-icons/io5";
@@ -14,7 +14,7 @@ function Header() {
   return (
 
     <div className='w-full h-14 bg-black flex justify-around items-center border-b-[0.5px] border-[#03F6FF]'>
-      <Link to='/'><img className='h-10 w-35 rounded-full' src={icon} /></Link>
+      <Link to='/'><img className='h-12  rounded-full' src={icon} /></Link>
       <div>
         <ul className='md:flex  hidden justify-evenly items-center font-semibold font-serif text-xl'>
           <li className='m-4 '><NavLink to="/" className={({ isActive }) =>
@@ -64,19 +64,19 @@ function Header() {
           </div>
           <ul className="flex flex-col items-center justify-between font-semibold font-serif text-xl">
             <li className='m-4 '><NavLink to="/" className={({ isActive }) =>
-              ` ${isActive ? "text-slate-500" : "text-red-900"}`}>
+              ` ${isActive ? "text-[#03F6FF]" : "text-white"}`}>
               <div className='flex flex-row items-center gap-1'>
                 <IoHome />Home</div></NavLink></li>
             <li className='m-4'><NavLink to="/about" className={({ isActive }) =>
-              ` ${isActive ? "text-slate-500" : "text-red-900"}`}><div className='flex flex-row items-center gap-1'><FaUser />About</div></NavLink></li>
+              ` ${isActive ? "text-[#03F6FF]" : "text-white"}`}><div className='flex flex-row items-center gap-1'><FaUser />About</div></NavLink></li>
             <li className='m-4'><NavLink to="/skills" className={({ isActive }) =>
-              ` ${isActive ? "text-slate-500" : "text-red-900"}`}><div className='flex flex-row items-center gap-1'><RiUserStarFill />Skills</div></NavLink></li>
+              ` ${isActive ? "text-[#03F6FF]" : "text-white"}`}><div className='flex flex-row items-center gap-1'><RiUserStarFill />Skills</div></NavLink></li>
             <li className='m-4'><NavLink to="/projects" className={({ isActive }) =>
-              ` ${isActive ? "text-slate-500" : "text-red-900"}`}><div className='flex flex-row items-center gap-1'><AiOutlineFundProjectionScreen />Projects</div></NavLink></li>
+              ` ${isActive ? "text-[#03F6FF]" : "text-white"}`}><div className='flex flex-row items-center gap-1'><AiOutlineFundProjectionScreen />Projects</div></NavLink></li>
             <li className='m-4'><NavLink to="/education" className={({ isActive }) =>
-              ` ${isActive ? "text-slate-500" : "text-red-900"}`}><div className='flex flex-row items-center gap-1'><BsFillMortarboardFill />Education</div></NavLink></li>
+              ` ${isActive ? "text-[#03F6FF]" : "text-white"}`}><div className='flex flex-row items-center gap-1'><BsFillMortarboardFill />Education</div></NavLink></li>
             <li className='m-4'><NavLink to="/contact" className={({ isActive }) =>
-              ` ${isActive ? "text-slate-500" : "text-red-900"}`}><div className='flex flex-row items-center gap-1'><MdContactMail />Contact</div></NavLink></li>
+              ` ${isActive ? "text-[#03F6FF]" : "text-white"}`}><div className='flex flex-row items-center gap-1'><MdContactMail />Contact</div></NavLink></li>
           </ul>
         </div>
       </section><style>{`
@@ -90,7 +90,7 @@ function Header() {
         height: 100vh;
         top: 0;
         left: 0;
-        background: white;
+        background: black;
         z-index: 10;
         display: flex;
         flex-direction: column;
