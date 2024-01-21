@@ -10,6 +10,7 @@ function Contact() {
         {/* This is for the image-part */}
         <div className='md:w-[50%] w-full flex items-center justify-center'>
             <img className='rounded h-[25rem]' src={contact}/>
+          
         </div>
 
 
