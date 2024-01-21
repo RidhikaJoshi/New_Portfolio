@@ -13,8 +13,8 @@ function Education() {
               {/* This div conatins gif */}
               <div className='md:w-[50%] w-full  flex items-center justify-center'> 
               {/* <img className='rounded-2xl ' src={reading}/> */}
-
-              <svg width="90%" viewBox="0 0 1006 830" fill="none" xmlns="http://www.w3.org/2000/svg">
+              
+    <svg width="90%" viewBox="0 0 1006 830" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="undraw_Tree_swing_646s 1" clipPath="url(#clip0)">
                     <path id="Vector" d="M462.918 28.5253C463.527 29.9749 463.981 31.4902 464.271 33.0436C463.612 30.674 463.095 29.0655 462.918 28.5253Z" fill="#3f3d56"></path>
                     <path id="Vector_2" d="M483.784 103.593C483.784 103.593 483.784 105.287 482.031 111.402L483.784 103.593Z" fill="#3f3d56"></path>
@@ -84,6 +84,7 @@ function Education() {
                     <path id="leaf12" d="M853.749 362.407C842.251 380.962 820.358 387.514 820.358 387.514C820.358 387.514 817.107 363.984 828.605 345.429C840.103 326.874 861.995 320.321 861.995 320.321C861.995 320.321 865.246 343.852 853.749 362.407Z" fill="#03F6FF"></path>
                 </g>
             </svg>
+              
               
               </div>
 

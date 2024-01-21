@@ -12,10 +12,10 @@ function Footer() {
 
       <div>
         <ul className='flex flex-row justify-evenly items-center gap-6'>
-          <li className='text-2xl border-2 p-1.5 rounded hover:rounded-full border-[#03F6FF] text-[#03F6FF]'><Link to="https://www.linkedin.com/in/ridhika-joshi-069164221/" target='_blank'><FaLinkedin /></Link></li>
-          <li className='text-2xl border-2 p-1.5 rounded hover:rounded-full border-[#03F6FF] text-[#03F6FF]'><Link to="https://github.com/RidhikaJoshi" target='_blank'><FaGithub /></Link></li>
-          <li className='text-2xl border-2 p-1.5 rounded hover:rounded-full border-[#03F6FF] text-[#03F6FF]'><Link to="https://twitter.com/ridhika_joshi" target='_blank'><FaTwitter /></Link></li>
-          <li className='text-2xl border-2 p-1.5 rounded hover:rounded-full border-[#03F6FF] text-[#03F6FF]'><Link to="https://medium.com/@ridhikasmrh" target='_blank'><FaMedium /></Link></li>
+          <li className='text-2xl border-2  p-1.5  rounded  border-[#03F6FF] text-[#03F6FF]'><Link to="https://www.linkedin.com/in/ridhika-joshi-069164221/" target='_blank'><FaLinkedin/></Link></li>
+          <li className='text-2xl  border-2   p-1.5 rounded  border-[#03F6FF] text-[#03F6FF]'><Link to="https://github.com/RidhikaJoshi" target='_blank'><FaGithub/></Link></li>
+          <li className='text-2xl border-2   p-1.5 rounded  border-[#03F6FF] text-[#03F6FF]'><Link to="https://twitter.com/ridhika_joshi" target='_blank'><FaTwitter /></Link></li>
+          <li className='text-2xl border-2 p-1.5 rounded border-[#03F6FF] text-[#03F6FF]'><Link to="https://medium.com/@ridhikasmrh" target='_blank'><FaMedium /></Link></li>
         </ul>
       </div>
       <div className='flex flex-row items-center gap-2 text-[#03F6FF]'><FaHeart /><div>Made By Ridhika Joshi</div></div>
