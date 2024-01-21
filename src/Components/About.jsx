@@ -33,7 +33,7 @@ function About() {
 
           {/* This div is for the image part */}
          
-            <img className='md:w-[40%] h-[30rem] w-[90%] rounded-xl img-fluid'src={photo}/>
+            <img className='md:w-[40%] h-[30rem] w-[90%] rounded-xl 'src={photo} loading="lazy"/>
           
 
       </div>
