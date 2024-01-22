@@ -12,10 +12,10 @@ import { Fade } from "react-awesome-reveal";
 
 function Project() {
   return (
-    <div className='min-h-[90vh] w-full bg-black  text-white flex flex-col items-center justify-center font-serif gap-6'>
-      <div className='md:w-[90%] w-[90%]  min-h-[25rem] mt-10 flex md:flex-row flex-col-reverse items-center justify-evenly gap-6'>
-        <div className=' md:w-[40%] w-full flex items-center justify-center'>
-       <svg className='w-full h-full' xmlns="http://www.w3.org/2000/svg" id="ku" width="90%" baseProfile="tiny" class="svgmate" version="1" viewBox="300 150 550 570">
+    <div className='min-h-[90vh] w-full bg-black  text-white flex flex-col items-center justify-center font-serif gap-4'>
+      <div className='md:w-[90%] w-[90%] min-h-[25rem] mt-10 flex md:flex-row flex-col-reverse items-center justify-evenly gap-6 '>
+        <div className='md:w-[50%] w-full  flex items-center justify-center md:mt-6'> 
+       <svg  xmlns="http://www.w3.org/2000/svg" id="ku" width="90%" baseProfile="tiny" class="svgmate" version="1" viewBox="300 150 550 570">
 
                 <g id="wall">
                   <path fill="#03F6FF" d="M674 333c0 2-2 4-4 4H553c-2 0-4-2-4-4V203c0-2 2-4 4-4h117c2 0 4 2 4 4v130z">
@@ -28,7 +28,7 @@ function Project() {
                 </g>
                 <g id="Woman__x2F__Chair__x2F__Screen">
                   <g id="backleg_1_">
-                    <path id="backlegpath" fill="#39065A" d="M651 521l47-90 24-16 12 11-29 44-46 56z"></path>
+                    <path id="backlegpath" fill="#013a63" d="M651 521l47-90 24-16 12 11-29 44-46 56z"></path>
                     <path fill="#BCBCBD" d="M639 549l20-23-8-5s-8 6-14 6-26-7-26-7v10l28 19z"></path>
                   </g>
                   <g id="Chair_1_">
@@ -63,7 +63,7 @@ function Project() {
                       <path id="main" fill="#585268" d="M784 364c6-3 32-21 30-34s-18-16-26-29-21 2-13 11 11 33 7 36c-16 17 2 16 2 16z"></path>
                     </g>
                     <g id="dress">
-                      <path fill="#c4c1f7" d="M755 315c-4 5-29 31-18 39s19 13 16 31-33 28-42 31l20 19h28c11 0 29-7 29-24s-7-19-7-27l5-21c1-4 3-32-2-39-8-10-17-19-29-9z">
+                      <path fill="#00b4d8" d="M755 315c-4 5-29 31-18 39s19 13 16 31-33 28-42 31l20 19h28c11 0 29-7 29-24s-7-19-7-27l5-21c1-4 3-32-2-39-8-10-17-19-29-9z">
                       </path>
 
                     </g>
@@ -136,14 +136,14 @@ function Project() {
                           <path id="frontfoot" fill="#BCBCBD" d="M446 529v21l40-1 2-9s-12 1-20-3-9-8-9-8h-13z">
                           </path>
                           <g id="bot">
-                            <path fill="#39065A" d="M459 529c5-15 21-89 20-95s-8-18-18-8-19 0-18 26l3 77h13z">
+                            <path fill="#013a63" d="M459 529c5-15 21-89 20-95s-8-18-18-8-19 0-18 26l3 77h13z">
                             </path>
-                            <path id="shade_1_" fill="#39065A"  d=" M444 488c7-15 19-35 11-42-5-4-13-2-13-2l2 44z"></path>
+                            <path id="shade_1_" fill="#013a63"  d=" M444 488c7-15 19-35 11-42-5-4-13-2-13-2l2 44z"></path>
                           </g>
                           <g id="top">
-                            <path fill="#39065A" d="M410 408c19 3 62 9 67 18s0 14 0 20-11-2-23-2l-99-2c-7 0-12-4-9-18 7-39 64-16 64-16">
+                            <path fill="#013a63" d="M410 408c19 3 62 9 67 18s0 14 0 20-11-2-23-2l-99-2c-7 0-12-4-9-18 7-39 64-16 64-16">
                             </path>
-                            <path id="shade" fill="#39065A"  d=" M397 417c66 10 80 9 80 9s-6-14-70-18c-13 1-10 9-10 9z"></path>
+                            <path id="shade" fill="#013a63"  d=" M397 417c66 10 80 9 80 9s-6-14-70-18c-13 1-10 9-10 9z"></path>
                           </g>
                         </g>
                       </g>
@@ -161,7 +161,7 @@ function Project() {
                       </g>
                       <g id="torso">
                         
-                        <path id="shirt" fill="#c4c1f7" d="M357 340l19-19h11c40 0 40 7 30 64-7 35-13 32-32 39-12 5-22 5-35 4s7-88 7-88z"></path>
+                        <path id="shirt" fill="#00b4d8" d="M357 340l19-19h11c40 0 40 7 30 64-7 35-13 32-32 39-12 5-22 5-35 4s7-88 7-88z"></path>
                       </g>
                       <g id="arm">
                         <g id="Bluearmbot">
@@ -172,9 +172,9 @@ function Project() {
                         <path id="Bluearmtop" fill="#F89F71" d="M404 360l31 40c5 4 9 4 10 4 10-1-4-5-5-11l-10-54c-28-6-26 21-26 21z">
                         </path>
                         <path id="armhighlight" fill="#F68E5A" d="M439 386l-15-37 7-7z"></path>
-                        <path id="toparm" fill="#c2bff5" d="M406 322c22-5 26 18 24 21-3 8-26 19-26 19l-8-15c-8-18 10-25 10-25z">
+                        <path id="toparm" fill="#00b4d8" d="M406 322c22-5 26 18 24 21-3 8-26 19-26 19l-8-15c-8-18 10-25 10-25z">
                         </path>
-                        <path id="toparmshade" fill="#c2bff5" d="M418 334c-5-7-10-13-13-11-8 2-15 14-8 27 4 9 7 12 7 12s15-7 19-12c3-3-3-13-5-16z">
+                        <path id="toparmshade" fill="#00b4d8" d="M418 334c-5-7-10-13-13-11-8 2-15 14-8 27 4 9 7 12 7 12s15-7 19-12c3-3-3-13-5-16z">
                         </path>
                       </g>
                     </g>
@@ -188,7 +188,7 @@ function Project() {
                       </path>
                     </g>
                     <g id="backrest">
-                      <path fill="#52057B" d="M349 340c12 0 19-2 20 8l7 41c2 14 4 29-18 29 7-5 12-7 12-10 0 0-6-56-12-61l-9-7z">
+                      <path fill="#03F6FF" d="M349 340c12 0 19-2 20 8l7 41c2 14 4 29-18 29 7-5 12-7 12-10 0 0-6-56-12-61l-9-7z">
                       </path>
                       <path fill="#03F6FF" d="M318 340c-8 0-12 5-10 17l8 48c2 8 5 13 14 13h29s14-2 12-19-6-32-8-45-7-14-14-14h-31z">
                       </path>
@@ -218,7 +218,7 @@ function Project() {
                 </g>
               </svg>
             </div>
-        <div className=' md:w-[40%] w-full flex flex-col gap-4'>
+        <div className='  md:w-[50%] w-full flex flex-col items-center md:justify-center gap-4'>
           <h1 className='md:text-4xl font-bold mt-8 text-2xl text-center text-[#03F6FF]' >My Recent Projects</h1>
          <p className='text-center'>I engage in diverse projects encompassing a wide array of technologies, showcasing my proficiency as a full-stack developer. </p>
         </div>

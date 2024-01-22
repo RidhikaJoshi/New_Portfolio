@@ -2,6 +2,7 @@ import React from 'react'
 import contact from '../assets/contact.gif'
 import FormFeild from './FormFeild'
 import { IoMdContacts } from "react-icons/io";
+import { BsFillSendFill } from "react-icons/bs";
 
 function Contact() {
   return (
@@ -24,8 +25,8 @@ function Contact() {
                   <FormFeild name="Email Address" type="email"/>
                   <FormFeild name="Your Message" type="text"/>
                   <div className="flex items-center justify-between">
-                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-                      Submit
+                    <button className="bg-blue-500 hover:bg-blue-700 flex flex-row items-center gap-2 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                      <div>Submit</div> <BsFillSendFill />
                     </button>
                   
                   </div>

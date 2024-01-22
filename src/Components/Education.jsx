@@ -112,7 +112,7 @@ function Education() {
               <div
                 className="border-[#03F6FF]  border-[1px] col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
               >
-                <h3 className="font-bold text-xl mb-1 flex flex-row gap-1 items-center"><SiGooglescholar /><div>Bachelor Degree</div></h3>
+                <h3 className="font-bold text-xl mb-1 flex flex-row gap-1 items-center"><SiGooglescholar /><div className='text-[#03F6FF]'>Bachelor Degree</div></h3>
                 <p className='italic'>Academy of Technology</p>
                 <p className='italic'>July 2021-Present</p>
                 <br/>
@@ -142,7 +142,7 @@ function Education() {
               <div
                 className="border-[#03F6FF]  border-[1px]  col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
               >
-                <h3 className="font-bold text-xl mb-1 flex flex-row gap-1 items-center"><SiGooglescholar /><div>Higher Secondary</div></h3>
+                <h3 className="font-bold text-xl mb-1 flex flex-row gap-1 items-center"><SiGooglescholar /><div className='text-[#03F6FF]'>Higher Secondary</div></h3>
                 <p className='italic'>St.Joseph's Convent</p>
                 <p className='italic'>July 2018- March 2020</p>
                 <br/>
@@ -159,7 +159,7 @@ function Education() {
               <div
                 className="border-[#03F6FF]  border-[1px] col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
               >
-                <h3 className="font-bold text-xl mb-1 flex flex-row gap-1 items-center"><SiGooglescholar /><div>Secondary Education</div></h3>
+                <h3 className="font-bold text-xl mb-1 flex flex-row gap-1 items-center"><SiGooglescholar /><div className='text-[#03F6FF]'>Secondary Education</div></h3>
                 <p className='italic'>Stepping Stone School(High)</p>
                 <p className='italic'>July 2016-March 2018</p>
                 <br/>
