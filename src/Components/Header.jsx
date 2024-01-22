@@ -15,7 +15,7 @@ function Header() {
   return (
 
     <div className='w-full h-14 bg-black flex justify-around items-center border-b-[0.5px] border-[#03F6FF]'>
-      <Link to='/'><h1 className='text-[#03F6FF] flex flex-row items-center gap-1 italic font-serif text-2xl'><div>Ridhika</div><BsStars /></h1></Link>
+      <Link to='/'><h1 className='text-[#03F6FF] hover:text-white flex flex-row items-center gap-1 italic font-serif text-2xl'><div>Ridhika</div><BsStars /></h1></Link>
       <div>
         <ul className='md:flex  hidden justify-evenly items-center font-semibold font-serif text-xl'>
           <li className='m-4 '><NavLink to="/" className={({ isActive }) =>
