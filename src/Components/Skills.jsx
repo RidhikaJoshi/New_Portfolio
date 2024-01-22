@@ -34,7 +34,7 @@ function Skills() {
     <div className='min-h-[80vh] w-full text-white  flex flex-col items-center justify-center font-serif'>
 
      
-      <div className=' min-h-[90vh] md:w-[80%] w-[90%] flex  flex-col justify-center items-center mt-8 mb-4 '>
+      <div className=' min-h-[90vh] md:w-[80%] w-[95%] flex  flex-col justify-center items-center mt-8 mb-4 '>
 
         <h1 className='md:text-4xl text-2xl flex flex-row items-center gap-2 font-bold text-[#03F6FF]'><FaLaptopCode /><div>Skills & Abilities</div></h1>
 
