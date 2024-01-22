@@ -36,6 +36,8 @@ function Skills() {
      
       <div className=' min-h-[90vh] md:w-[80%] w-[95%] flex  flex-col justify-center items-center mt-8 mb-4 '>
 
+      {/* This section contains professional skill-set. */}
+
         <h1 className='md:text-4xl text-2xl flex flex-row items-center gap-2 font-bold text-[#03F6FF]'><FaLaptopCode /><div>Skills & Abilities</div></h1>
 
 
@@ -67,6 +69,7 @@ function Skills() {
 
           </div>
           <br/>
+          {/* This div contains coding profiles */}
           <p className='md:text-4xl text-2xl flex flex-row items-center gap-2 font-bold text-[#03F6FF]'><FaLaptopCode /><div>Coding Profiles</div></p>
 
            <div className=' w-full mt-4  flex-wrap flex items-center justify-between p-10 gap-6 '>
@@ -78,7 +81,6 @@ function Skills() {
              <Link to="https://www.hackerrank.com/profile/ridhikasmrh" target="_blank"><SkillsCard icon={hackerrank} name="Hackerrank" /></Link>
             
            </div>
-
       </div>
 
     </div>
