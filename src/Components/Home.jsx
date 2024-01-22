@@ -6,6 +6,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa6";
 import { useState, useEffect } from "react";
 import { IoDocumentText } from "react-icons/io5";
+import Tilt from 'react-parallax-tilt';
 
 function Home() {
 
@@ -66,7 +67,7 @@ function Home() {
 
       {/* This div contains image */}
       <div className='h-96 md:w-[40%] w-[95%] '>
-           <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/f5d2d866-d25c-4873-8d82-425d2c62fc2e" width="500"></img>
+           <Tilt><img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/f5d2d866-d25c-4873-8d82-425d2c62fc2e" width="500"></img></Tilt>
       </div>
 
       </div>
