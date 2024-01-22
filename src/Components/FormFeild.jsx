@@ -1,6 +1,6 @@
 import React from 'react'
 
-function FormFeild({name,type}) {
+function FormFeild({name,type,icon}) {
   return (
     <div className="mb-6">
             <label className="block text-gray-700 text-sm font-bold mb-2" for="username">
