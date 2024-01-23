@@ -54,7 +54,7 @@ function Skills() {
               <SkillsCard icon={css} name="CSS" />
               <SkillsCard icon={js} name="JavaScript" />
               <SkillsCard icon={reacticon} name="React Js" />
-               <SkillsCard icon={firebase} name="Firebase" />
+              <SkillsCard icon={firebase} name="Firebase" />
               <SkillsCard icon={tailwind} name="Tailwind" />
               <SkillsCard icon={bootstrap} name="Bootstrap" />
               <SkillsCard icon={chakra} name="Chakra-UI" />
