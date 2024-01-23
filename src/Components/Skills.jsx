@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaReact } from "react-icons/fa";
 import SkillsCard from './miscellaneous/SkillsCard';
 import reacticon from '../assets/react.png'
 import cplus from '../assets/cplusplus.png'
@@ -7,7 +6,7 @@ import c from '../assets/c.png'
 import java from '../assets/java.png'
 import python from '../assets/python.png'
 import html from '../assets/html.png'
-import css from '../assets/css.png'
+import css from '../assets/CSS.png'
 import js from '../assets/javascript.png'
 import redux from '../assets/redux.png'
 import git from '../assets/Git.png'
