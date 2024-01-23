@@ -8,7 +8,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss } from "react-icons/si";
 import project from '../assets/projects.gif'
 import Tilt from 'react-parallax-tilt';
-import { Fade } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 
 function Project() {
   return (
@@ -218,11 +218,11 @@ function Project() {
                 </g>
               </svg> */}
 
-              <Tilt><img className='' src="https://user-images.githubusercontent.com/74038190/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif"></img></Tilt>
+              <Slide direction='right'><Tilt><img className='' src="https://user-images.githubusercontent.com/74038190/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif"></img></Tilt></Slide>
             </div>
         <div className='  md:w-[50%] w-full flex flex-col items-center md:justify-center gap-4'>
-          <h1 className='md:text-4xl font-bold mt-8 text-2xl text-center text-[#03F6FF]' >My Recent Projects</h1>
-         <p className='text-center'>I engage in diverse projects encompassing a wide array of technologies, showcasing my proficiency as a full-stack developer. </p>
+          <Slide direction='left'><h1 className='md:text-4xl font-bold mt-8 text-2xl text-center text-[#03F6FF]' >My Recent Projects</h1></Slide>
+          <Slide direction='left'><p className='text-center'>I engage in diverse projects encompassing a wide array of technologies, showcasing my proficiency as a full-stack developer. </p></Slide>
         </div>
 
       </div>

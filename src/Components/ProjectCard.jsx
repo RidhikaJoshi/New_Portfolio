@@ -2,6 +2,7 @@ import React from 'react'
 import { FaGithub } from "react-icons/fa";
 import { RiLiveFill } from "react-icons/ri";
 import { Link } from 'react-router-dom'
+import { Slide } from 'react-awesome-reveal';
 
 function ProjectCard({name,photo,description,icons,live,github}) {
   return (
@@ -14,7 +15,7 @@ function ProjectCard({name,photo,description,icons,live,github}) {
       <div className='w[full] flex md:flex-row m-2 justify-evenly flex-col'>
 
               {/* This is the project-image section */}
-              <img className='h-96 md:w-[45%] w-full'src={photo} />
+               <img className='h-96 md:w-[45%] w-full'src={photo} />
 
              
               {/* This is the description of project. */}
