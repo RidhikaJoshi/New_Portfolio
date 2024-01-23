@@ -18,7 +18,7 @@ function Footer() {
           <li className='text-2xl border-2 p-1.5 rounded border-[#03F6FF] hover:text-[#03F6FF] text-white'><Link to="https://medium.com/@ridhikasmrh" target='_blank'><FaMedium /></Link></li>
         </ul>
       </div>
-      <div className='flex flex-row items-center gap-2 text-[#03F6FF]'><FaHeart /><div>Made By Ridhika Joshi</div></div>
+      <div className='flex flex-row items-center gap-2 text-[#03F6FF]'><div>Designed with</div><FaHeart /><div>by Ridhika Joshi</div></div>
       <div className='text-[#03F6FF]'>&copy; 2024 Ridhika Joshi. All rights reserved.</div>
 
     </div>
