@@ -13,7 +13,7 @@ import git from '../assets/Git.png'
 import github from '../assets/Github.png'
 import vscode from '../assets/vs-code.png'
 import netlify from '../assets/netlify.png'
-import heroku from '../assets/heroku.png'
+import vite from '../assets/vite.png'
 import tailwind from '../assets/tailwind-css.png'
 import bootstrap from '../assets/Bootstrap.png'
 import chakra from '../assets/chakra.png'
@@ -64,7 +64,7 @@ function Skills() {
               <SkillsCard icon={dsa} name="DSA" />
               <SkillsCard icon={vscode} name="VS Code" />
               <SkillsCard icon={netlify} name="Netlify" />
-              <SkillsCard icon={heroku} name="Heroku" />
+              <SkillsCard icon={vite} name="Vite" />
 
           </div>
           <br/>
