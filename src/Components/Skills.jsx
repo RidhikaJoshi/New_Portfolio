@@ -42,7 +42,7 @@ function Skills() {
 
         {/* This division contains tech-stack */}
 
-          <div className=' w-full min-h-96  flex-wrap flex items-center justify-between p-10 gap-6 '>
+          <div className=' w-full min-h-96  flex-wrap flex items-center justify-between p-10 md:gap-6 gap-3 '>
 
 
               <SkillsCard icon={cplus} name="C++" />
