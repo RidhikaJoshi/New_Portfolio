@@ -8,7 +8,7 @@ function Contact() {
   return (
     <div className='min-h-[90vh] flex items-center justify-center font-serif mt-6 mb-6'>
 
-      <div className='w-[80%] min-h-[28rem] bg-white rounded-2xl flex md:flex-row flex-col '>
+      <div className='w-[90%] md:w-[80%] min-h-[28rem] bg-white rounded-2xl flex md:flex-row flex-col '>
         {/* This is for the image-part */}
         <div className='md:w-[50%] w-full flex items-center justify-center'>
             <img className='rounded h-[25rem]' src={contact}/>
