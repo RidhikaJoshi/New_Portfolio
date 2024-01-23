@@ -15,7 +15,7 @@ function Home() {
   const [textIndex, setTextIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const textArray = [
-    "MERN Stack Developer",
+    "WEB Developer",
     "Open Source Enthusiast",
     "Competitive Coder",
   ];
