@@ -71,7 +71,7 @@ function Skills() {
           {/* This div contains coding profiles */}
           <p className='md:text-4xl text-2xl flex flex-row items-center gap-2 font-bold text-[#03F6FF]'><FaLaptopCode /><div>Coding Profiles</div></p>
 
-           <div className=' w-full mt-4  bg-green-500 flex-wrap flex items-center justify-between md:p-10 md:gap-6  gap-3 p-8 '>
+           <div className=' w-full mt-4 flex-wrap flex items-center justify-between md:p-10 md:gap-6  gap-3 p-8 '>
 
             <Link to="https://leetcode.com/RIDHIKA_JOSHI/" target="_blank"><SkillsCard icon={leetcode} name="LeetCode" /></Link>
             <Link to="https://codeforces.com/profile/ridhika17" target="_blank"><SkillsCard icon={codeforces} name="Codeforces" /></Link>
