@@ -5,7 +5,7 @@ function SkillsCard({icon,name}) {
     
     <div className='md:h-[8.5rem] md:w-[8.5rem]  h-[7.5rem] w-[7.5rem] bg-black flex flex-col border-[1px] hover:shadow-lg hover:shadow-cyan-500/50 border-[#03F6FF] justify-evenly items-center text-2xl  rounded-xl'>
         <img className='h-20 w-20' src={icon}/>
-        <span className='md:text-2xl text-xl'>{name}</span>
+        <span className='md:text-2xl text-lg'>{name}</span>
     </div>
   )
 }
