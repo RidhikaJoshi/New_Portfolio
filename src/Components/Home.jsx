@@ -10,7 +10,7 @@ import Tilt from 'react-parallax-tilt';
 
 function Home() {
 
-   const [typetext, setTypetext] = useState("");
+  const [typetext, setTypetext] = useState("");
   const [textArrayIndex, setTextArrayIndex] = useState(0);
   const [textIndex, setTextIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
