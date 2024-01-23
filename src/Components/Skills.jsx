@@ -17,7 +17,7 @@ import heroku from '../assets/heroku.png'
 import tailwind from '../assets/tailwind-css.png'
 import bootstrap from '../assets/Bootstrap.png'
 import chakra from '../assets/chakra.png'
-import firebase from '../assets/firebase.png'
+import appwrite from '../assets/appwrite.png'
 import leetcode from '../assets/leetcode.png'
 import codeforces from '../assets/codeforces.png'
 import GFG from '../assets/GFG.png'
@@ -53,7 +53,7 @@ function Skills() {
               <SkillsCard icon={css} name="CSS" />
               <SkillsCard icon={js} name="JavaScript" />
               <SkillsCard icon={reacticon} name="React Js" />
-              <SkillsCard icon={firebase} name="Firebase" />
+              <SkillsCard icon={appwrite} name="Appwrite" />
               <SkillsCard icon={tailwind} name="Tailwind" />
               <SkillsCard icon={bootstrap} name="Bootstrap" />
               <SkillsCard icon={chakra} name="Chakra-UI" />

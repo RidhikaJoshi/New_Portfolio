@@ -18,7 +18,7 @@ function Contact() {
 
         {/* this will be the form */}
         <div className='md:w-[50%] w-full h-[30rem] flex flex-col items-center justify-center '>
-          <p className='text-4xl font-semibold flex flex-row items-center gap-2'><IoMdContacts /><div>Get in Touch</div></p>
+          <p className='md:text-4xl text-2xl font-semibold flex flex-row items-center gap-2'><IoMdContacts /><div>Get in Touch</div></p>
             <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-[80%]">
                   {/* This div is for name field */}
                   <FormFeild name="Name" type="text" />
