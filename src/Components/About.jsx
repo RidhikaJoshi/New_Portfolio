@@ -12,21 +12,21 @@ function About() {
       <div className='md:w-[90%] w-[95%] min-h-[25rem] flex md:flex-row items-center justify-between flex-col m-2 gap-2'>
           {/* This div is for the text part */}
           <div className='md:w-[55%] flex flex-col justify-between w-[90%] '>
-              <Slide direction='left'><p className='md:text-2xl font-bold text-center text-xl text-[#03F6FF]'>LET ME INTRODUCE MYSELF</p></Slide>
+              <Slide direction='up'><p className='md:text-2xl font-bold text-center text-xl text-[#03F6FF]'>LET ME INTRODUCE MYSELF</p></Slide>
               <br/>
-              <Slide direction='left'><p>I am Ridhika Joshi from Rishra, West Bengal, India. Currently, I’m pursuing my B.Tech. in Computer Science and Engineering from Academy of Technology, Adisaptagram.</p></Slide>
+              <Slide direction='up' delay={0.5} ><p>I am Ridhika Joshi from Rishra, West Bengal, India. Currently, I’m pursuing my B.Tech. in Computer Science and Engineering from Academy of Technology, Adisaptagram.</p></Slide>
                <br/>
-              <Slide direction='left'><p>I embody dynamism, discipline, and a focused work ethic, driven by an unwavering commitment to excellence. With a natural propensity for swift and efficient learning, I actively seek out opportunities to explore diverse domains that pique my curiosity. I am invigorated by engaging challenges and relish problem-solving as a means to simplify complexities, ultimately enhancing the quality of life. My perpetual quest involves continuous skill enhancement and the relentless pursuit of self-improvement.</p></Slide>
+              <Slide direction='up'><p>I'm a dedicated individual with a passion for learning and problem-solving. I'm committed to excellence and always seeking opportunities to improve my skills. My focused work ethic and efficiency-driven mindset contribute to simplifying complexities and improving overall quality of life.</p></Slide>
                <br/>
-              <Slide direction='left'><p>In addition to my passion for Coding and Development, my interests extend into various realms:</p></Slide>
+              <Slide direction='up'><p>In addition to my passion for Coding and Development, my interests extend into various realms:</p></Slide>
                <br/>
               <ul>
-                <Slide direction='left'><li className='flex items-center gap-1.5'> <div className='text-[#03F6FF]'><IoBookSharp /></div><div>Nourishing my mind through self-help Books.</div></li></Slide>
-                <Slide direction='left'><li className='flex items-center gap-1.5'><div className='text-[#03F6FF]'><FaPaintBrush /></div><div>Expressing my creativity with a paintbrush in hand.</div></li></Slide>
-                <Slide direction='left'><li className='flex items-center gap-1.5'><div className='text-[#03F6FF]'><FaPlane /></div><div>Embarking on journeys to new horizons.</div></li></Slide>
+                <Slide direction='up'><li className='flex items-center gap-1.5'> <div className='text-[#03F6FF]'><IoBookSharp /></div><div>Nourishing my mind through self-help Books.</div></li></Slide>
+                <Slide direction='up'><li className='flex items-center gap-1.5'><div className='text-[#03F6FF]'><FaPaintBrush /></div><div>Expressing my creativity with a paintbrush in hand.</div></li></Slide>
+                <Slide direction='up'><li className='flex items-center gap-1.5'><div className='text-[#03F6FF]'><FaPlane /></div><div>Embarking on journeys to new horizons.</div></li></Slide>
               </ul>
                <br/>
-              <Slide direction='left'><p >“Endeavoring to create impactful contributions that bring about meaningful change.”</p></Slide>
+              <Slide direction='up'><p >“Endeavoring to create impactful contributions that bring about meaningful change.”</p></Slide>
 
           </div>
 
