@@ -2,6 +2,7 @@ import React from 'react'
 import reading from '../assets/reading.gif'
 import Tilt from 'react-parallax-tilt';
 import { SiGooglescholar } from "react-icons/si";
+import {Fade, Slide} from "react-awesome-reveal";
 
 function Education() {
   return (
@@ -91,34 +92,32 @@ function Education() {
 
               {/* This div conatins text */}
               <div className='  md:w-[50%] w-full flex flex-col items-center md:justify-center'>
-                    <p className='md:text-4xl text-2xl font-bold text-[#03F6FF]'>Educational Background</p>
+                    <Slide direction='up'><p className='md:text-4xl text-2xl font-bold text-[#03F6FF]'>Educational Background</p></Slide>
                     
-                  <p className='md:text-xl text-lg m-4'>An investment in knowledge pays the best interest. </p>
-                  <p className='italic'>– Benjamin Franklin</p></div>
+                  <Slide direction='up'><p className='md:text-xl text-lg m-4'>An investment in knowledge pays the best interest. </p></Slide>
+                  <Slide direction='up'><p className='italic'>– Benjamin Franklin</p></Slide></div>
           </div>
 
 
           {/* This division contains the education details */}
 
           <div className=' min-h-[90vh] w-full'>
-              <p className='md:text-3xl font-bold text-center text-xl text-[#03F6FF]'>Educational Qualifications</p>
+              <Slide direction='up'><p className='md:text-3xl font-bold text-center text-xl text-[#03F6FF]'>Educational Qualifications</p></Slide>
 
               <div className='p-8  md:w-[90%] w-full m-auto'>
           <div
             className="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50"
           >
             {/* <!-- left --> */}
-            <div className="flex flex-row-reverse md:contents">
-              <div
-                className="border-[#03F6FF]  border-[1px] col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
-              >
-                <h3 className="font-bold text-xl mb-1 flex flex-row gap-1 items-center"><SiGooglescholar /><div className='text-[#03F6FF]'>Bachelor Degree</div></h3>
-                <p className='italic'>Academy of Technology</p>
-                <p className='italic'>July 2021-Present</p>
+           <div className="flex flex-row-reverse md:contents">
+              <div className="border-[#03F6FF]  border-[1px] col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+                <Slide direction='up'><h3 className="font-bold text-xl mb-1 flex flex-row gap-1 items-center"><SiGooglescholar /><div className='text-[#03F6FF]'>Bachelor Degree</div></h3></Slide>
+                <Slide direction='up'><p className='italic'>Academy of Technology</p></Slide>
+                <Slide direction='up'><p className='italic'>July 2021-Present</p></Slide>
                 <br/>
-                <p className="leading-tight text-justify">
+                <Slide direction='up'><p className="leading-tight text-justify">
                   • Undergraduate achiever in Computer Science and Engineering, holding an GPA of 9.45/10, demonstrating a strong commitment to academic excellence and a deep grasp of the core concepts in the field.
-                </p>
+                </p></Slide>
               </div>
               <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
                 <div className="h-full w-6 flex items-center justify-center">
@@ -142,16 +141,16 @@ function Education() {
               <div
                 className="border-[#03F6FF]  border-[1px]  col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
               >
-                <h3 className="font-bold text-xl mb-1 flex flex-row gap-1 items-center"><SiGooglescholar /><div className='text-[#03F6FF]'>Higher Secondary</div></h3>
-                <p className='italic'>St.Joseph's Convent</p>
-                <p className='italic'>July 2018- March 2020</p>
+                <Slide direction='up'><h3 className="font-bold text-xl mb-1 flex flex-row gap-1 items-center"><SiGooglescholar /><div className='text-[#03F6FF]'>Higher Secondary</div></h3></Slide>
+                <Slide direction='up'><p className='italic'>St.Joseph's Convent</p></Slide>
+                <Slide direction='up'><p className='italic'>July 2018- March 2020</p></Slide>
                 <br/>
-                <ul className="leading-tight text-justify">
+                <Slide direction='up'><ul className="leading-tight text-justify">
                   <li> •  CISCE(Council for Indian School Certificate Examinations)</li>
                   <li>•  Percentage-96.25%</li>
                   <li>•  Participated in old usable clothes donation camp in Serampore, Hooghly.</li>
                  
-                </ul>
+                </ul></Slide>
               </div>
             </div>
             {/* <!-- left --> */}
@@ -159,18 +158,18 @@ function Education() {
               <div
                 className="border-[#03F6FF]  border-[1px] col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
               >
-                <h3 className="font-bold text-xl mb-1 flex flex-row gap-1 items-center"><SiGooglescholar /><div className='text-[#03F6FF]'>Secondary Education</div></h3>
-                <p className='italic'>Stepping Stone School(High)</p>
-                <p className='italic'>July 2016-March 2018</p>
+                <Slide direction='up'><h3 className="font-bold text-xl mb-1 flex flex-row gap-1 items-center"><SiGooglescholar /><div className='text-[#03F6FF]'>Secondary Education</div></h3></Slide>
+                <Slide direction='up'><p className='italic'>Stepping Stone School(High)</p></Slide>
+                <Slide direction='up'><p className='italic'>July 2016-March 2018</p></Slide>
                 <br/>
-                <ul className="leading-tight text-justify">
+                <Slide direction='up'><ul className="leading-tight text-justify">
                   <li> •  CISCE(Council for Indian School Certificate Examinations).</li>
                   <li>•  Percentage-93.25%.</li>
                   <li>•  House Captain for a year</li>
                   <li>• Winner of intra-school coding competition.</li>
                   <li>• 1st Runner-up in the Kho-Kho competition.</li>
                  
-                </ul>
+                </ul></Slide>
               </div>
               <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
                 <div className="h-full w-6 flex items-center justify-center">
