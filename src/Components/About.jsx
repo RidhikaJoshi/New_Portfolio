@@ -3,7 +3,7 @@ import photo from '../assets/photo.jpg'
 import { IoBookSharp } from "react-icons/io5";
 import { FaPaintBrush } from "react-icons/fa";
 import { FaPlane } from "react-icons/fa";
-import { Slide } from "react-awesome-reveal";
+import { Slide,Zoom} from "react-awesome-reveal";
 
 function About() {
   return (
@@ -34,7 +34,7 @@ function About() {
 
           {/* This div is for the image part */}
          
-            <div className='md:w-[40%] h-[30rem] w-[90%] rounded-xl '><Slide direction='right'><img className='h-[30rem] w-[90%] rounded-xl 'src={photo} loading="lazy"/></Slide></div>
+            <div className='md:w-[40%] h-[30rem] w-[90%] rounded-xl '><Zoom ><img className='h-[30rem] w-[90%] rounded-xl 'src={photo} loading="lazy"/></Zoom></div>
           
 
       </div>
