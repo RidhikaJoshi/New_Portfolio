@@ -34,7 +34,7 @@ function About() {
 
           {/* This div is for the image part */}
          
-            <div className='md:w-[40%] h-[30rem] w-[90%] rounded-xl '><Zoom ><img className='h-[30rem] w-[90%] rounded-xl 'src={photo} loading="lazy"/></Zoom></div>
+            <div className='md:w-[40%] h-[30rem] w-[90%] rounded-xl '><Zoom ><img className='h-[30rem] w-[90%] rounded-xl 'src={photo} loading="lazy" alt="My-photo"/></Zoom></div>
           
 
       </div>

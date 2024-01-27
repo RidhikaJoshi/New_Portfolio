@@ -11,7 +11,7 @@ function Contact() {
       <div className='w-[90%] md:w-[80%] min-h-[28rem] bg-white rounded-2xl flex md:flex-row flex-col '>
         {/* This is for the image-part */}
         <div className='md:w-[50%] w-full flex items-center justify-center'>
-            <img className='rounded h-[25rem]' src={contact}/>
+            <img className='rounded h-[25rem]' src={contact} alt="contact-img"/>
           
         </div>
 

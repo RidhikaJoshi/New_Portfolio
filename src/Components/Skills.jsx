@@ -73,11 +73,11 @@ function Skills() {
 
            <div className=' w-full mt-4 flex-wrap flex items-center justify-between md:p-10 md:gap-6  gap-3 p-8 '>
 
-            <Link to="https://leetcode.com/RIDHIKA_JOSHI/" target="_blank"><SkillsCard icon={leetcode} name="LeetCode" /></Link>
-            <Link to="https://codeforces.com/profile/ridhika17" target="_blank"><SkillsCard icon={codeforces} name="Codeforces" /></Link>
-            <Link to="https://auth.geeksforgeeks.org/user/qmq0dxjk1xbl7bp49wz1cmicj5xcpcqfmn6vd7oe" target="_blank"><SkillsCard icon={GFG} name="GFG" /></Link>
-            <Link to="https://www.codechef.com/users/ridhikajoshi17" target="_blank"><SkillsCard icon={codechef} name="Codechef" /></Link>
-             <Link to="https://www.hackerrank.com/profile/ridhikasmrh" target="_blank"><SkillsCard icon={hackerrank} name="Hackerrank" /></Link>
+            <Link to="https://leetcode.com/RIDHIKA_JOSHI/" target="_blank" rel="noopener noreferrer"><SkillsCard icon={leetcode} name="LeetCode" /></Link>
+            <Link to="https://codeforces.com/profile/ridhika17" target="_blank" rel="noopener noreferrer"><SkillsCard icon={codeforces} name="Codeforces" /></Link>
+            <Link to="https://auth.geeksforgeeks.org/user/qmq0dxjk1xbl7bp49wz1cmicj5xcpcqfmn6vd7oe" target="_blank" rel="noopener noreferrer"><SkillsCard icon={GFG} name="GFG" /></Link>
+            <Link to="https://www.codechef.com/users/ridhikajoshi17" target="_blank" rel="noopener noreferrer"><SkillsCard icon={codechef} name="Codechef" /></Link>
+             <Link to="https://www.hackerrank.com/profile/ridhikasmrh" target="_blank" rel="noopener noreferrer"><SkillsCard icon={hackerrank} name="Hackerrank" /></Link>
             
            </div>
       </div>

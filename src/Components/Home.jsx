@@ -52,14 +52,14 @@ function Home() {
 
             <p className='md:text-4xl  text-2xl font-semi-bold font-serif text-[#03F6FF]'> {typetext}|</p>
 
-            <Link to="https://drive.google.com/file/d/1CkI4uZ-rjcgMBdOtv5TiVW9EJZjV0ZMM/view?usp=sharing" target="_blank"><button className='border-2 rounded-xl p-2 text-lg text-[#03F6FF] flex flex-row items-center gap-2 hover:text-white hover:border-[#03F6FF]'><div>Resume</div><IoDocumentText /></button></Link>
+            <Link to="https://drive.google.com/file/d/1CkI4uZ-rjcgMBdOtv5TiVW9EJZjV0ZMM/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className='border-2 rounded-xl p-2 text-lg text-[#03F6FF] flex flex-row items-center gap-2 hover:text-white hover:border-[#03F6FF]'><div>Resume</div><IoDocumentText /></button></Link>
 
 
             <ul className='flex flex-row justify-evenly items-center gap-6'>
-                  <li className='text-2xl border-2  p-1.5  rounded  border-[#03F6FF] hover:text-[#03F6FF] text-white'><Link to="https://www.linkedin.com/in/ridhika-joshi-069164221/" target='_blank'><FaLinkedin/></Link></li>
-                  <li className='text-2xl  border-2   p-1.5 rounded  border-[#03F6FF] hover:text-[#03F6FF] text-white'><Link to="https://github.com/RidhikaJoshi" target='_blank'><FaGithub/></Link></li>
-                  <li className='text-2xl border-2   p-1.5 rounded  border-[#03F6FF] hover:text-[#03F6FF] text-white'><Link to="https://twitter.com/ridhika_joshi" target='_blank'><FaTwitter /></Link></li>
-                  <li className='text-2xl border-2 p-1.5 rounded border-[#03F6FF] hover:text-[#03F6FF] text-white'><Link to="https://medium.com/@ridhikasmrh" target='_blank'><FaMedium /></Link></li>
+                  <li className='text-2xl border-2  p-1.5  rounded  border-[#03F6FF] hover:text-[#03F6FF] text-white'><Link to="https://www.linkedin.com/in/ridhika-joshi-069164221/" target='_blank' rel="noopener noreferrer"><FaLinkedin/></Link></li>
+                  <li className='text-2xl  border-2   p-1.5 rounded  border-[#03F6FF] hover:text-[#03F6FF] text-white'><Link to="https://github.com/RidhikaJoshi" target='_blank' rel="noopener noreferrer"><FaGithub/></Link></li>
+                  <li className='text-2xl border-2   p-1.5 rounded  border-[#03F6FF] hover:text-[#03F6FF] text-white'><Link to="https://twitter.com/ridhika_joshi" target='_blank' rel="noopener noreferrer"><FaTwitter /></Link></li>
+                  <li className='text-2xl border-2 p-1.5 rounded border-[#03F6FF] hover:text-[#03F6FF] text-white' ><Link to="https://medium.com/@ridhikasmrh" target='_blank' rel="noopener noreferrer"><FaMedium /></Link></li>
             </ul>
 
       </div>
