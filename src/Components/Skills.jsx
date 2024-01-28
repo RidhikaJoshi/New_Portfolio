@@ -26,6 +26,9 @@ import postman from '../assets/postman.png'
 import interviewbit from '../assets/interviewbit.svg'
 import { FaLaptopCode } from "react-icons/fa6";
 import {Link } from 'react-router-dom'
+import { BsBarChartFill } from "react-icons/bs";
+import { BsBraces } from "react-icons/bs";
+import { IoSettings } from "react-icons/io5";
 
 function Skills() {
   return (
@@ -40,7 +43,7 @@ function Skills() {
 
 
         {/* This division contains Languages Known */}
-        <div className=' md:text-3xl text-2xl flex flex-row bg-[#03F6FF] items-center gap-2 font-bold text-black'><FaLaptopCode /><div>Languages</div></div>
+        <div className='w-[95%] p-4 md:text-3xl text-2xl flex flex-row bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'><BsBraces /><div>Languages</div></div>
         <div className=' w-full min-h-60  flex-wrap flex items-center justify-between md:p-10  p-8 md:gap-6 gap-2 '>
 
               <SkillsCard icon={cplus} name="C++" />
@@ -54,7 +57,7 @@ function Skills() {
 
 
         {/* This division contains Technologies/Framework */}
-          <div className=' md:text-3xl text-xl flex flex-row bg-[#03F6FF] items-center gap-2 font-bold text-black'><FaLaptopCode /><div>Technologies</div></div>
+          <div className='w-[95%] p-4 md:text-3xl text-xl flex flex-row  bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'><BsBarChartFill /><div>Technologies</div></div>
           <div className=' w-full min-h-60 flex-wrap flex items-center justify-between md:p-10  p-8 md:gap-6 gap-3 '>
               <SkillsCard icon={reacticon} name="React Js" />
               <SkillsCard icon={tailwind} name="Tailwind" />
@@ -68,7 +71,7 @@ function Skills() {
 
 
 
-          <div className=' md:text-3xl text-2xl flex flex-row bg-[#03F6FF] items-center gap-2 font-bold text-black'><FaLaptopCode /><div>Developer Tools</div></div>
+          <div className=' w-[95%] p-4 md:text-3xl text-2xl flex flex-row bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'><IoSettings /><div>Developer Tools</div></div>
 
        <div className=' w-full min-h-60  flex-wrap flex items-center justify-between md:p-10  p-8 md:gap-6 gap-2 '>
               <SkillsCard icon={appwrite} name="Appwrite" />
@@ -80,9 +83,9 @@ function Skills() {
              
 
           </div>
-          <br/>
+          
           {/* This div contains coding profiles */}
-          <p className='md:text-4xl text-2xl flex flex-row items-center gap-2 font-bold text-[#03F6FF]'><FaLaptopCode /><div>Coding Profiles</div></p>
+         <p className=' w-[95%] p-4 md:text-3xl text-2xl flex flex-row bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'><FaLaptopCode /><div>Coding Profiles</div></p>
 
            <div className=' w-full mt-4 flex-wrap flex items-center justify-between md:p-10 md:gap-6  gap-3 p-8 '>
 
