@@ -4,7 +4,6 @@ import reacticon from '../assets/react.png'
 import cplus from '../assets/cplusplus.png'
 import c from '../assets/c.png'
 import java from '../assets/java.png'
-import python from '../assets/python.png'
 import html from '../assets/html.png'
 import css from '../assets/CSS.png'
 import js from '../assets/javascript.png'
@@ -23,8 +22,8 @@ import codeforces from '../assets/codeforces.png'
 import GFG from '../assets/GFG.png'
 import codechef from '../assets/codechef.png'
 import hackerrank from '../assets/hackerrank.png'
-import dsa from '../assets/DSa.png'
 import postman from '../assets/postman.png'
+import interviewbit from '../assets/interviewbit.svg'
 import { FaLaptopCode } from "react-icons/fa6";
 import {Link } from 'react-router-dom'
 
@@ -37,34 +36,48 @@ function Skills() {
 
       {/* This section contains professional skill-set. */}
 
-        <h1 className='md:text-4xl text-2xl flex flex-row items-center gap-2 font-bold text-[#03F6FF]'><FaLaptopCode /><div>Skills & Abilities</div></h1>
+        {/* <h1 className='md:text-4xl text-2xl flex flex-row items-center gap-2 font-bold text-[#03F6FF]'><FaLaptopCode /><div>Skills & Abilities</div></h1> */}
 
 
-        {/* This division contains tech-stack */}
-
-          <div className=' w-full min-h-96  flex-wrap flex items-center justify-between md:p-10  p-8 md:gap-6 gap-3 '>
-
+        {/* This division contains Languages Known */}
+        <div className=' md:text-3xl text-2xl flex flex-row bg-[#03F6FF] items-center gap-2 font-bold text-black'><FaLaptopCode /><div>Languages</div></div>
+        <div className=' w-full min-h-60  flex-wrap flex items-center justify-between md:p-10  p-8 md:gap-6 gap-2 '>
 
               <SkillsCard icon={cplus} name="C++" />
               <SkillsCard icon={c} name="C" />
               <SkillsCard icon={java} name="Java" />
-              <SkillsCard icon={python} name="Python" />
               <SkillsCard icon={html} name="HTML" />
               <SkillsCard icon={css} name="CSS" />
               <SkillsCard icon={js} name="JavaScript" />
+
+          </div>
+
+
+        {/* This division contains Technologies/Framework */}
+          <div className=' md:text-3xl text-xl flex flex-row bg-[#03F6FF] items-center gap-2 font-bold text-black'><FaLaptopCode /><div>Technologies</div></div>
+          <div className=' w-full min-h-60 flex-wrap flex items-center justify-between md:p-10  p-8 md:gap-6 gap-3 '>
               <SkillsCard icon={reacticon} name="React Js" />
-              <SkillsCard icon={appwrite} name="Appwrite" />
               <SkillsCard icon={tailwind} name="Tailwind" />
               <SkillsCard icon={bootstrap} name="Bootstrap" />
               <SkillsCard icon={chakra} name="Chakra-UI" />
               <SkillsCard icon={redux} name="Redux" />
+              <SkillsCard icon={vite} name="Vite" />
+          </div>
+
+
+
+
+
+          <div className=' md:text-3xl text-2xl flex flex-row bg-[#03F6FF] items-center gap-2 font-bold text-black'><FaLaptopCode /><div>Developer Tools</div></div>
+
+       <div className=' w-full min-h-60  flex-wrap flex items-center justify-between md:p-10  p-8 md:gap-6 gap-2 '>
+              <SkillsCard icon={appwrite} name="Appwrite" />
+              <SkillsCard icon={vscode} name="VS Code" />
+              <SkillsCard icon={netlify} name="Netlify" />
               <SkillsCard icon={git} name="Git" />
               <SkillsCard icon={github} name="Github" />
               <SkillsCard icon={postman} name="Postman" />
-              <SkillsCard icon={dsa} name="DSA" />
-              <SkillsCard icon={vscode} name="VS Code" />
-              <SkillsCard icon={netlify} name="Netlify" />
-              <SkillsCard icon={vite} name="Vite" />
+             
 
           </div>
           <br/>
@@ -78,6 +91,8 @@ function Skills() {
             <Link to="https://auth.geeksforgeeks.org/user/qmq0dxjk1xbl7bp49wz1cmicj5xcpcqfmn6vd7oe" target="_blank" rel="noopener noreferrer"><SkillsCard icon={GFG} name="GFG" /></Link>
             <Link to="https://www.codechef.com/users/ridhikajoshi17" target="_blank" rel="noopener noreferrer"><SkillsCard icon={codechef} name="Codechef" /></Link>
              <Link to="https://www.hackerrank.com/profile/ridhikasmrh" target="_blank" rel="noopener noreferrer"><SkillsCard icon={hackerrank} name="Hackerrank" /></Link>
+             <Link to="https://www.interviewbit.com/profile/ridhika-joshi" target="_blank" rel="noopener noreferrer"><SkillsCard icon={interviewbit} name="InterviewBit" /></Link>
+
             
            </div>
       </div>
