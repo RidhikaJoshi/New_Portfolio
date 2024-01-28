@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import SkillsCard from './miscellaneous/SkillsCard';
 import reacticon from '../assets/react.png'
 import cplus from '../assets/cplusplus.png'
@@ -29,22 +29,23 @@ import {Link } from 'react-router-dom'
 import { BsBarChartFill } from "react-icons/bs";
 import { BsBraces } from "react-icons/bs";
 import { IoSettings } from "react-icons/io5";
+import { IoIosArrowDown } from "react-icons/io";
 
 function Skills() {
+    const[lang,setlang]=useState(true);
+    const[tech,settech]=useState(true);
+    const[tools,settools]=useState(true);
+    const[code,setcode]=useState(true);
   return (
     <div className='min-h-[80vh] w-full text-white  flex flex-col items-center justify-center font-serif'>
 
      
-      <div className=' min-h-[90vh] md:w-[80%] w-[95%] flex  flex-col justify-center items-center mt-8 mb-4 '>
-
-      {/* This section contains professional skill-set. */}
-
-        {/* <h1 className='md:text-4xl text-2xl flex flex-row items-center gap-2 font-bold text-[#03F6FF]'><FaLaptopCode /><div>Skills & Abilities</div></h1> */}
+      <div className=' min-h-[90vh] md:w-[80%] w-[95%] flex  flex-col justify-center items-center mt-8 mb-4 gap-4 '>
 
 
         {/* This division contains Languages Known */}
-        <div className='w-[95%] p-4 md:text-3xl text-2xl flex flex-row bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'><BsBraces /><div>Languages</div></div>
-        <div className=' w-full min-h-60  flex-wrap flex items-center justify-between md:p-10  p-8 md:gap-6 gap-2 '>
+        <div className='w-[95%] p-4 md:text-3xl text-2xl flex flex-row bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'><BsBraces /><div>Languages</div><p className='ml-auto cursor-pointer' onClick={() => setlang((prev) => !prev)}><IoIosArrowDown /></p></div>
+        <div className={`w-full ${lang ? 'hidden' : 'min-h-60'} flex-wrap flex items-center justify-between md:p-10 p-8 md:gap-6 gap-2`}>
 
               <SkillsCard icon={cplus} name="C++" />
               <SkillsCard icon={c} name="C" />
@@ -57,8 +58,8 @@ function Skills() {
 
 
         {/* This division contains Technologies/Framework */}
-          <div className='w-[95%] p-4 md:text-3xl text-xl flex flex-row  bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'><BsBarChartFill /><div>Technologies</div></div>
-          <div className=' w-full min-h-60 flex-wrap flex items-center justify-between md:p-10  p-8 md:gap-6 gap-3 '>
+          <div className='w-[95%] p-4 md:text-3xl text-xl flex flex-row  bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'><BsBarChartFill /><div>Technologies</div><p className='ml-auto cursor-pointer' onClick={() => settech((prev) => !prev)}><IoIosArrowDown /></p></div>
+           <div className={`w-full ${tech ? 'hidden' : 'min-h-60'} flex-wrap flex items-center justify-between md:p-10 p-8 md:gap-6 gap-2`}>
               <SkillsCard icon={reacticon} name="React Js" />
               <SkillsCard icon={tailwind} name="Tailwind" />
               <SkillsCard icon={bootstrap} name="Bootstrap" />
@@ -71,9 +72,9 @@ function Skills() {
 
 
 
-          <div className=' w-[95%] p-4 md:text-3xl text-2xl flex flex-row bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'><IoSettings /><div>Developer Tools</div></div>
+          <div className=' w-[95%] p-4 md:text-3xl text-2xl flex flex-row bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'><IoSettings /><div>Developer Tools</div><p className='ml-auto cursor-pointer' onClick={() => settools((prev) => !prev)}><IoIosArrowDown /></p></div>
 
-       <div className=' w-full min-h-60  flex-wrap flex items-center justify-between md:p-10  p-8 md:gap-6 gap-2 '>
+        <div className={`w-full ${tools ? 'hidden' : 'min-h-60'} flex-wrap flex items-center justify-between md:p-10 p-8 md:gap-6 gap-2`}>
               <SkillsCard icon={appwrite} name="Appwrite" />
               <SkillsCard icon={vscode} name="VS Code" />
               <SkillsCard icon={netlify} name="Netlify" />
@@ -85,9 +86,9 @@ function Skills() {
           </div>
           
           {/* This div contains coding profiles */}
-         <p className=' w-[95%] p-4 md:text-3xl text-2xl flex flex-row bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'><FaLaptopCode /><div>Coding Profiles</div></p>
+         <p className=' w-[95%] p-4 md:text-3xl text-2xl flex flex-row bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'><FaLaptopCode /><div>Coding Profiles</div><p className='ml-auto cursor-pointer' onClick={() => setcode((prev) => !prev)}><IoIosArrowDown /></p></p>
 
-           <div className=' w-full mt-4 flex-wrap flex items-center justify-between md:p-10 md:gap-6  gap-3 p-8 '>
+           <div className={`w-full ${code ? 'hidden' : 'min-h-60'} flex-wrap flex items-center justify-between md:p-10 p-8 md:gap-6 gap-2`}>
 
             <Link to="https://leetcode.com/RIDHIKA_JOSHI/" target="_blank" rel="noopener noreferrer"><SkillsCard icon={leetcode} name="LeetCode" /></Link>
             <Link to="https://codeforces.com/profile/ridhika17" target="_blank" rel="noopener noreferrer"><SkillsCard icon={codeforces} name="Codeforces" /></Link>
