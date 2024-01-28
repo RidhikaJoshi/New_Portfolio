@@ -18,6 +18,9 @@ function Contact() {
       }, (error) => {
           console.log(error.text);
       });
+      
+      form.current.reset();
+
   };
   return (
     <div className='min-h-[90vh] flex items-center justify-center font-serif mt-6 mb-6'>
