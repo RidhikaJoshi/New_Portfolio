@@ -5,9 +5,24 @@ import { IoMdContacts } from "react-icons/io";
 import { BsFillSendFill } from "react-icons/bs";
 import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast , Bounce } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
    const form = useRef();
+    const notify = () =>{ 
+       toast.success('Message Sent Successfully!', {
+position: "top-right",
+autoClose: 5000,
+hideProgressBar: false,
+closeOnClick: true,
+pauseOnHover: true,
+draggable: true,
+progress: undefined,
+theme: "dark",
+transition: Bounce,
+});
+}
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -20,6 +35,7 @@ function Contact() {
       });
       
       form.current.reset();
+      notify();
 
   };
   return (
@@ -44,6 +60,22 @@ function Contact() {
               <label className='text-[#03F6FF]' >Message</label>
               <textarea className="shadow appearance-none border rounded w-full py-2 px-3 bg-slate-900  text-white leading-tight focus:outline-none focus:shadow-outline" required name="message" />
               <input className="bg-[#03F6FF] hover:bg-[#4cced3]  text-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline text-center" type="submit" value="Send" /> 
+              <ToastContainer 
+                style={{
+                  position: "top-right",
+                  autoClose: 2000,
+                  hideProgressBar: false,
+                  newestOnTop: false,
+                  closeOnClick: true,
+                  rtl: false,
+                  pauseOnFocusLoss: true,
+                  draggable: true,
+                  pauseOnHover: true,
+                  theme: "dark",
+                  transition: Bounce,
+                }}
+              />
+              
             </form>
         </div>
       </div>
