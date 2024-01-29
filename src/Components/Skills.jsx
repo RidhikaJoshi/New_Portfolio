@@ -30,6 +30,7 @@ import { BsBarChartFill } from "react-icons/bs";
 import { BsBraces } from "react-icons/bs";
 import { IoSettings } from "react-icons/io5";
 import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowUp } from "react-icons/io";
 
 function Skills() {
     const[lang,setlang]=useState(true);
@@ -44,7 +45,18 @@ function Skills() {
 
 
         {/* This division contains Languages Known */}
-        <div className='w-[95%] p-4 md:text-2xl text-xl flex flex-row bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'><BsBraces /><div>Languages</div><p className='ml-auto cursor-pointer' onClick={() => setlang((prev) => !prev)}><IoIosArrowDown /></p></div>
+        <div className='w-[95%] p-4 md:text-2xl text-xl flex flex-row bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'>
+          <BsBraces />
+          <div>Languages</div>
+          <p
+            className='ml-auto cursor-pointer'
+            onClick={() => {
+              setlang((prev) => !prev);
+            }}
+          >
+            {lang ? <IoIosArrowDown /> : <IoIosArrowUp />}
+          </p>
+        </div>
         <div className={`w-full ${lang ? 'hidden' : 'min-h-60'} flex-wrap flex items-center justify-between md:p-10 p-8 md:gap-6 gap-2`}>
 
               <SkillsCard icon={cplus} name="C++" />
@@ -58,7 +70,7 @@ function Skills() {
 
 
         {/* This division contains Technologies/Framework */}
-          <div className='w-[95%] p-4 md:text-2xl text-xl  flex flex-row  bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'><BsBarChartFill /><div>Technologies</div><p className='ml-auto cursor-pointer' onClick={() => settech((prev) => !prev)}><IoIosArrowDown /></p></div>
+          <div className='w-[95%] p-4 md:text-2xl text-xl  flex flex-row  bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'><BsBarChartFill /><div>Technologies</div><p className='ml-auto cursor-pointer' onClick={() => settech((prev) => !prev)}> {tech ? <IoIosArrowDown /> : <IoIosArrowUp />}</p></div>
            <div className={`w-full ${tech ? 'hidden' : 'min-h-60'} flex-wrap flex items-center justify-between md:p-10 p-8 md:gap-6 gap-2`}>
               <SkillsCard icon={reacticon} name="React Js" />
               <SkillsCard icon={tailwind} name="Tailwind" />
@@ -72,7 +84,7 @@ function Skills() {
 
 
 
-          <div className=' w-[95%] p-4 md:text-2xl text-xl  flex flex-row bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'><IoSettings /><div>Developer Tools</div><p className='ml-auto cursor-pointer' onClick={() => settools((prev) => !prev)}><IoIosArrowDown /></p></div>
+          <div className=' w-[95%] p-4 md:text-2xl text-xl  flex flex-row bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'><IoSettings /><div>Developer Tools</div><p className='ml-auto cursor-pointer' onClick={() => settools((prev) => !prev)}> {tools ? <IoIosArrowDown /> : <IoIosArrowUp />}</p></div>
 
         <div className={`w-full ${tools ? 'hidden' : 'min-h-60'} flex-wrap flex items-center justify-between md:p-10 p-8 md:gap-6 gap-2`}>
               <SkillsCard icon={appwrite} name="Appwrite" />
@@ -86,7 +98,7 @@ function Skills() {
           </div>
           
           {/* This div contains coding profiles */}
-         <p className=' w-[95%] p-4 md:text-2xl text-xl  flex flex-row bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'><FaLaptopCode /><div>Coding Profiles</div><p className='ml-auto cursor-pointer' onClick={() => setcode((prev) => !prev)}><IoIosArrowDown /></p></p>
+         <p className=' w-[95%] p-4 md:text-2xl text-xl  flex flex-row bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'><FaLaptopCode /><div>Coding Profiles</div><p className='ml-auto cursor-pointer' onClick={() => setcode((prev) => !prev)}> {code ? <IoIosArrowDown /> : <IoIosArrowUp />}</p></p>
 
            <div className={`w-full ${code ? 'hidden' : 'min-h-60'} flex-wrap flex items-center justify-between md:p-10 p-8 md:gap-6 gap-2`}>
 
