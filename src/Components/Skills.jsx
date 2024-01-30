@@ -33,10 +33,10 @@ import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";
 
 function Skills() {
-    const[lang,setlang]=useState(true);
-    const[tech,settech]=useState(true);
-    const[tools,settools]=useState(true);
-    const[code,setcode]=useState(true);
+    const[lang,setlang]=useState(false);
+    const[tech,settech]=useState(false);
+    const[tools,settools]=useState(false);
+    const[code,setcode]=useState(false);
   return (
     <div className='min-h-[80vh] w-full text-white  flex flex-col items-center justify-center font-serif'>
 
