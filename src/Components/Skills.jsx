@@ -24,6 +24,8 @@ import codechef from '../assets/codechef.png'
 import hackerrank from '../assets/hackerrank.png'
 import postman from '../assets/postman.png'
 import interviewbit from '../assets/interviewbit.svg'
+import sql from '../assets/sql.png'
+import python from '../assets/python.svg'
 import { FaLaptopCode } from "react-icons/fa6";
 import {Link } from 'react-router-dom'
 import { BsBarChartFill } from "react-icons/bs";
@@ -57,7 +59,7 @@ function Skills() {
             {lang ? <IoIosArrowDown /> : <IoIosArrowUp />}
           </p>
         </div>
-        <div className={`w-full ${lang ? 'hidden' : 'min-h-60'} flex-wrap flex items-center justify-between md:p-10 p-8 md:gap-6 gap-2`}>
+        <div className={`w-full ${lang ? 'hidden' : 'min-h-60'} flex-wrap flex items-center justify-evenly md:p-10 p-8 md:gap-6 gap-2`}>
 
               <SkillsCard icon={cplus} name="C++" />
               <SkillsCard icon={c} name="C" />
@@ -65,6 +67,8 @@ function Skills() {
               <SkillsCard icon={html} name="HTML" />
               <SkillsCard icon={css} name="CSS" />
               <SkillsCard icon={js} name="JavaScript" />
+              <SkillsCard icon={python} name="Python" />
+              <SkillsCard icon={sql} name="SQL" />
 
           </div>
 
