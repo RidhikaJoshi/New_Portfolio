@@ -43,7 +43,7 @@ transition: Bounce,
 
       <div className='w-[90%] md:w-[80%] min-h-[28rem] bg-slate-900 rounded-2xl flex md:flex-row flex-col '>
         {/* This is for the image-part */}
-        <div className='md:w-[50%] w-full flex items-center justify-center'>
+        <div className='md:w-[50%] w-[90%] m-auto flex items-center justify-center'>
             <img className='rounded h-[25rem]' src={contact} alt="contact-img"/>
           
         </div>
@@ -52,7 +52,7 @@ transition: Bounce,
         {/* this will be the form */}
         <div className='md:w-[50%] w-full h-[30rem] flex flex-col items-center justify-center '>
           <p className='md:text-4xl text-2xl font-semibold flex flex-row items-center gap-2 text-[#03F6FF]'><IoMdContacts /><div>Get in Touch</div></p>
-           <form className="bg-slate-900 flex flex-col gap-4 shadow-md rounded px-8 pt-6 pb-8 mb-4 w-[80%]" ref={form} onSubmit={sendEmail}>
+           <form className="bg-slate-900 flex flex-col gap-4 shadow-md rounded px-8 pt-6 pb-8 mb-4 md:w-[80%] w-full" ref={form} onSubmit={sendEmail}>
               <label className='text-[#03F6FF]'>Name</label>
               <input className="shadow appearance-none border rounded w-full py-2 px-3 bg-slate-900  text-white leading-tight focus:outline-none focus:shadow-outline" required type="text" name="user_name" />
               <label className='text-[#03F6FF]'>Email</label>

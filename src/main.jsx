@@ -2,13 +2,17 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
+import {lazy} from 'react'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import Home from './Components/Home.jsx'
-import About from './Components/About.jsx'
-import Skills from './Components/Skills.jsx'
-import Project from './Components/Project.jsx'
-import Education from './Components/Education.jsx'
-import Contact from './Components/Contact.jsx'
+
+const Home = lazy(()=>import('./Components/Home.jsx'));
+const About = lazy (() =>  import('./Components/About.jsx'));
+const Skills = lazy (() =>  import('./Components/Skills.jsx'));
+const Project = lazy (() =>  import('./Components/Project.jsx'));
+const Education = lazy (() =>  import('./Components/Education.jsx'));
+const Contact = lazy (() =>  import('./Components/Contact.jsx'));
+
+
 const router=createBrowserRouter([
   {
     path:'/',

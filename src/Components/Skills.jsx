@@ -59,7 +59,7 @@ function Skills() {
             {lang ? <IoIosArrowDown /> : <IoIosArrowUp />}
           </p>
         </div>
-        <div className={`w-full ${lang ? 'hidden' : 'min-h-60'} flex-wrap flex items-center justify-evenly md:p-10 p-8 md:gap-6 gap-2`}>
+        <div className={`w-full ${lang ? 'hidden' : 'min-h-60'} flex-wrap flex items-center md:justify-evenly justify-between md:p-10 p-8 md:gap-6 gap-2`}>
 
               <SkillsCard icon={cplus} name="C++" />
               <SkillsCard icon={c} name="C" />

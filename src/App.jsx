@@ -2,7 +2,7 @@ import './App.css'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
 import { Outlet } from 'react-router-dom'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, Suspense } from 'react'
 import PreLoader from './Components/Preloader'
 
 
@@ -18,7 +18,9 @@ const [loading, setLoading] = useState(true);
   return (
     <div >
       <Header/>
-      <Outlet/>
+      <Suspense fallback= { <PreLoader />}>
+        <Outlet/>
+      </Suspense>
       <Footer/>
     </div>
   );
