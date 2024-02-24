@@ -1,14 +1,15 @@
-import React from 'react'
-import ProjectCard from './ProjectCard'
-import quickexchange from '../assets/quickexchange.png'
-import passwordgenerator from '../assets/passwordgenerator.png'
-import anagram from '../assets/anagram.png'
+import React from 'react';
+import ProjectCard from './ProjectCard';
+import quickexchange from '../assets/quickexchange.png';
+import passwordgenerator from '../assets/passwordgenerator.png';
+import anagram from '../assets/anagram.png';
 import { FaHtml5,FaCss3Alt ,FaReact} from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss } from "react-icons/si";
-import project from '../assets/projects.gif'
 import Tilt from 'react-parallax-tilt';
 import { Slide } from "react-awesome-reveal";
+import { SiAppwrite } from "react-icons/si";
+import blog from '../assets/blogSphere.png'
 
 function Project() {
   return (
@@ -30,7 +31,7 @@ function Project() {
       <div className='md:w-[90%] w-[90%] min-h-[25rem] flex flex-wrap md:flex-row items-center justify-between flex-col m-2 gap-4'>
 
 
-
+      <ProjectCard name="BlogSphere" photo={blog} description="BlogSphere is a web application crafted for users to articulate their thoughts and ideas through published articles. It seamlessly incorporates user authentication, a robust rich text editor, and Appwrite as the backend, ensuring a smooth and secure experience for writers and readers." github="https://github.com/RidhikaJoshi/Blog"  live="https://blogsphere-swf7.onrender.com/" icons={[<SiAppwrite key='Appwrite'/>,<FaReact key='react' />,<SiTailwindcss key='tailwindcss' />]} />
 
         <ProjectCard name="Password Generator" photo={passwordgenerator} description="Empower your online security with our Simple Password Generator application. Craft strong and customizable passwords effortlessly, adjusting length and including uppercase, lowercase, numbers, and special characters. With a user-friendly design, generating and copying secure passwords is just a click away. Stay protected with style." github="https://github.com/RidhikaJoshi/Password_Generator"  live="https://ridhikajoshi-password-generator.netlify.app/" icons={[<FaReact key='react' />,<SiTailwindcss key='tailwindcss' />]} />
 
