@@ -52,7 +52,7 @@ function Home() {
 
             <p className='md:text-4xl  text-2xl font-semi-bold font-serif text-[#03F6FF]'> {typetext}|</p>
 
-            <Link to="https://drive.google.com/file/d/1CkI4uZ-rjcgMBdOtv5TiVW9EJZjV0ZMM/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className='border-2 rounded-xl p-2 text-lg text-[#03F6FF] flex flex-row items-center gap-2 hover:text-white hover:border-[#03F6FF]'><div>Resume</div><IoDocumentText /></button></Link>
+            {/* <Link to="https://drive.google.com/file/d/1CkI4uZ-rjcgMBdOtv5TiVW9EJZjV0ZMM/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className='border-2 rounded-xl p-2 text-lg text-[#03F6FF] flex flex-row items-center gap-2 hover:text-white hover:border-[#03F6FF]'><div>Resume</div><IoDocumentText /></button></Link> */}
 
 
             <ul className='flex flex-row justify-evenly items-center gap-6'>
