@@ -12,7 +12,7 @@ import { SiMongodb } from "react-icons/si";
 import Tilt from 'react-parallax-tilt';
 import { Slide } from "react-awesome-reveal";
 import { SiAppwrite } from "react-icons/si";
-import videotweets from '../assets/videotweets.png'
+import videotweets from '../assets/VideoTweets.png'
 import blog from '../assets/blogSphere.png'
 
 function Project() {
