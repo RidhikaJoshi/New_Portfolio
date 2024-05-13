@@ -19,6 +19,9 @@ import chakra from '../assets/chakra.png'
 import appwrite from '../assets/appwrite.png'
 import leetcode from '../assets/leetcode.png'
 import codeforces from '../assets/codeforces.png'
+import mongodb from '../assets/mongodb.png'
+import express from '../assets/expressjs.png'
+import nodejs from '../assets/nodejs.png'
 import GFG from '../assets/GFG.png'
 import codechef from '../assets/codechef.png'
 import hackerrank from '../assets/hackerrank.png'
@@ -74,14 +77,18 @@ function Skills() {
 
 
         {/* This division contains Technologies/Framework */}
-          <div className='w-[95%] p-4 md:text-2xl text-xl  flex flex-row  bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'><BsBarChartFill /><div>Technologies</div><p className='ml-auto cursor-pointer' onClick={() => settech((prev) => !prev)}> {tech ? <IoIosArrowDown /> : <IoIosArrowUp />}</p></div>
+          <div className='w-[95%] p-4 md:text-2xl text-xl  flex flex-row  bg-slate-900 items-center gap-2 font-bold text-[#03F6FF]'><BsBarChartFill /><div>Technologies/Frameworks</div><p className='ml-auto cursor-pointer' onClick={() => settech((prev) => !prev)}> {tech ? <IoIosArrowDown /> : <IoIosArrowUp />}</p></div>
            <div className={`w-full ${tech ? 'hidden' : 'min-h-60'} flex-wrap flex items-center justify-between md:p-10 p-8 md:gap-6 gap-2`}>
               <SkillsCard icon={reacticon} name="React Js" />
+               <SkillsCard icon={mongodb} name="MongoDB" />
+              <SkillsCard icon={nodejs} name="Node Js" />
+              <SkillsCard icon={express} name="Express Js" />
               <SkillsCard icon={tailwind} name="Tailwind" />
               <SkillsCard icon={bootstrap} name="Bootstrap" />
               <SkillsCard icon={chakra} name="Chakra-UI" />
               <SkillsCard icon={redux} name="Redux" />
               <SkillsCard icon={vite} name="Vite" />
+             
           </div>
 
 
