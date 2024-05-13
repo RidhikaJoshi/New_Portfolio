@@ -6,9 +6,13 @@ import anagram from '../assets/anagram.png';
 import { FaHtml5,FaCss3Alt ,FaReact} from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 import Tilt from 'react-parallax-tilt';
 import { Slide } from "react-awesome-reveal";
 import { SiAppwrite } from "react-icons/si";
+import videotweets from '../assets/videotweets.png'
 import blog from '../assets/blogSphere.png'
 
 function Project() {
@@ -30,6 +34,7 @@ function Project() {
       <br/>
       <div className='md:w-[90%] w-[90%] min-h-[25rem] flex flex-wrap md:flex-row items-center justify-between flex-col m-2 gap-4'>
 
+      <ProjectCard name="VideoTweets" photo={videotweets} description="VideoTweets offers seamless sharing and discovery of multimedia content, including videos and tweets. Users can comment, like, and engage with content, create playlists, manage profiles, and subscribe to channels. Built on Node.js with Express.js, MongoDB, and Mongoose, it ensures secure authentication and authorization for users." github="https://github.com/RidhikaJoshi/VideoTweets"  live="https://documenter.getpostman.com/view/18992770/2sA2xpR8nu" icons={[<FaNodeJs key='NodeJs'/>,<SiExpress key='Express' />,<SiMongodb  key='Mongodb' />]} />
 
       <ProjectCard name="BlogSphere" photo={blog} description="BlogSphere is a web application crafted for users to articulate their thoughts and ideas through published articles. It seamlessly incorporates user authentication, a robust rich text editor, and Appwrite as the backend, ensuring a smooth and secure experience for writers and readers." github="https://github.com/RidhikaJoshi/Blog"  live="https://blogsphere-swf7.onrender.com/" icons={[<SiAppwrite key='Appwrite'/>,<FaReact key='react' />,<SiTailwindcss key='tailwindcss' />]} />
 
