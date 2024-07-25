@@ -16,7 +16,7 @@ const [loading, setLoading] = useState(true);
   if (loading) return <PreLoader />;
   
   return (
-    <div >
+    <div>
       <Header/>
       <Suspense fallback= { <PreLoader />}>
         <Outlet/>

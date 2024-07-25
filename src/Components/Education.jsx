@@ -116,7 +116,7 @@ function Education() {
                 <Slide direction='up'><p className='italic'>July 2021-Present</p></Slide>
                 <br/>
                 <Slide direction='up'><p className="leading-tight text-justify">
-                  • Undergraduate achiever in Computer Science and Engineering, holding an GPA of 9.45/10, demonstrating a strong commitment to academic excellence and a deep grasp of the core concepts in the field.
+                  • Undergraduate achiever in Computer Science and Engineering, holding an GPA of 9.32/10, demonstrating a strong commitment to academic excellence and a deep grasp of the core concepts in the field.
                 </p></Slide>
               </div>
               <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
