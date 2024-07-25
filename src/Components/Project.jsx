@@ -20,7 +20,7 @@ import blog from '../assets/blogSphere.png'
 
 function Project() {
   return (
-    <div className='min-h-[90vh] w-full bg-black  text-white flex flex-col items-center justify-center font-serif gap-4'>
+    <div className='min-h-[100vh] w-full bg-black  text-white flex flex-col items-center justify-center font-serif gap-4'>
       <div className='md:w-[90%] w-[90%] min-h-[25rem] mt-10  flex md:flex-row-reverse flex-col-reverse items-center justify-evenly gap-6 '>
         <div className='md:w-[50%] w-full flex items-center justify-center '> 
 

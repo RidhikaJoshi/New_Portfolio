@@ -41,7 +41,7 @@ function Home() {
   }, [typetext, textIndex, isDeleting, textArrayIndex, textArray]);
 
   return (
-    <div className='min-h-[90vh] w-full text-white flex items-center justify-center font-serif  mb-8 '>
+    <div className='min-h-[100vh] w-full text-white flex items-center justify-center font-serif  mb-8 '>
 
       <div className='md:w-[90%] w-[95%] min-h-[25rem]  flex md:flex-row items-center justify-between flex-col mt-6 gap-1'>
 

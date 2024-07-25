@@ -43,7 +43,7 @@ function Skills() {
     const[tools,settools]=useState(false);
     const[code,setcode]=useState(false);
   return (
-    <div className='min-h-[80vh] w-full text-white  flex flex-col items-center justify-center font-serif'>
+    <div className='min-h-[100vh] w-full text-white  flex flex-col items-center justify-center font-serif'>
 
      
       <div className=' min-h-[90vh] md:w-[80%] w-[95%] flex  flex-col justify-center items-center mt-8 mb-4 gap-4 '>

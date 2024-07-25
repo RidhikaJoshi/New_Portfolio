@@ -39,7 +39,7 @@ transition: Bounce,
 
   };
   return (
-    <div className='min-h-[90vh] flex items-center justify-center font-serif mt-6 mb-6'>
+    <div className='min-h-[100vh] flex items-center justify-center font-serif mt-6 mb-6'>
 
       <div className='w-[90%] md:w-[80%] min-h-[28rem] bg-slate-900 rounded-2xl flex md:flex-row flex-col '>
         {/* This is for the image-part */}

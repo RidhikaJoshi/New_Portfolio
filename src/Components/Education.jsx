@@ -6,7 +6,7 @@ import {Fade, Slide} from "react-awesome-reveal";
 
 function Education() {
   return (
-    <div className='min-h-[80vh] w-full text-white flex flex-col items-center justify-center font-serif'>
+    <div className='min-h-[100vh] w-full text-white flex flex-col items-center justify-center font-serif'>
 
         {/* This divison is for the heading and gif */}
           <div className=' min-h-[90vh] w-[90%]  flex md:flex-row flex-col-reverse justify-evenly md:mt-4 mb-4 gap-6'>
